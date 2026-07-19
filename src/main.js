@@ -491,6 +491,110 @@ ipcMain.handle('extensions:open-folder', () => {
   shell.openPath(extDir);
 });
 
+// --- IPC: Extension Marketplace (GitHub) -------------------------------------
+const REPO_API_BASE = 'https://api.github.com/repos/carus10/Zpet/contents/extensions';
+const REPO_RAW_BASE = 'https://raw.githubusercontent.com/carus10/Zpet/main/extensions';
+
+ipcMain.handle('marketplace:fetch-list', async () => {
+  const { net } = require('electron');
+  try {
+    const dirData = await netFetch(REPO_API_BASE);
+    const folders = dirData.filter(item => item.type === 'dir' && item.name !== 'DEVELOPMENT.md');
+    const results = [];
+    for (const folder of folders) {
+      try {
+        const manifestUrl = `${REPO_RAW_BASE}/${folder.name}/manifest.json`;
+        const manifest = await netFetch(manifestUrl);
+        const installed = fs.existsSync(path.join(userDataPath, 'extensions', manifest.id || folder.name, 'manifest.json'));
+        results.push({ ...manifest, _folderName: folder.name, _installed: installed });
+      } catch (_) {}
+    }
+    return { success: true, extensions: results };
+  } catch (e) {
+    return { success: false, error: e.message, extensions: [] };
+  }
+});
+
+ipcMain.handle('marketplace:install', async (_e, folderName) => {
+  try {
+    const filesData = await netFetch(`${REPO_API_BASE}/${folderName}`);
+    const files = filesData.filter(f => f.type === 'file');
+
+    let manifest = null;
+    for (const f of files) {
+      if (f.name === 'manifest.json') {
+        manifest = await netFetch(f.download_url);
+        break;
+      }
+    }
+    if (!manifest) return { success: false, error: 'No manifest.json in extension' };
+
+    const id = manifest.id || folderName;
+    const destDir = path.join(userDataPath, 'extensions', id);
+    if (fs.existsSync(destDir)) fs.rmSync(destDir, { recursive: true, force: true });
+    fs.mkdirSync(destDir, { recursive: true });
+
+    for (const file of files) {
+      const content = await netFetchRaw(file.download_url);
+      fs.writeFileSync(path.join(destDir, file.name), content);
+    }
+
+    if (extensionManager && extensionManager.scan) extensionManager.scan();
+    return { success: true, id };
+  } catch (e) {
+    return { success: false, error: e.message };
+  }
+});
+
+ipcMain.handle('marketplace:uninstall', (_e, extId) => {
+  try {
+    const extDir = path.join(userDataPath, 'extensions', extId);
+    if (extensionManager) {
+      extensionManager.setEnabled(extId, false);
+    }
+    if (fs.existsSync(extDir)) {
+      fs.rmSync(extDir, { recursive: true, force: true });
+    }
+    if (extensionManager && extensionManager.scan) extensionManager.scan();
+    return { success: true };
+  } catch (e) {
+    return { success: false, error: e.message };
+  }
+});
+
+function netFetch(url) {
+  const { net } = require('electron');
+  return new Promise((resolve, reject) => {
+    const request = net.request(url);
+    request.setHeader('User-Agent', 'Zpet-App');
+    let body = '';
+    request.on('response', (response) => {
+      response.on('data', (chunk) => { body += chunk.toString(); });
+      response.on('end', () => {
+        try { resolve(JSON.parse(body)); }
+        catch (_) { reject(new Error('Failed to parse response')); }
+      });
+    });
+    request.on('error', (err) => reject(err));
+    request.end();
+  });
+}
+
+function netFetchRaw(url) {
+  const { net } = require('electron');
+  return new Promise((resolve, reject) => {
+    const request = net.request(url);
+    request.setHeader('User-Agent', 'Zpet-App');
+    const chunks = [];
+    request.on('response', (response) => {
+      response.on('data', (chunk) => { chunks.push(chunk); });
+      response.on('end', () => { resolve(Buffer.concat(chunks)); });
+    });
+    request.on('error', (err) => reject(err));
+    request.end();
+  });
+}
+
 // --- IPC: Library (folders) --------------------------------------------------
 ipcMain.handle('library:get-folders', () => {
   const data = readLibrary();

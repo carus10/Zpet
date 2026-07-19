@@ -39,6 +39,12 @@ contextBridge.exposeInMainWorld('extensions', {
   openFolder: () => ipcRenderer.invoke('extensions:open-folder'),
 });
 
+contextBridge.exposeInMainWorld('marketplace', {
+  fetchList: () => ipcRenderer.invoke('marketplace:fetch-list'),
+  install: (folderName) => ipcRenderer.invoke('marketplace:install', folderName),
+  uninstall: (extId) => ipcRenderer.invoke('marketplace:uninstall', extId),
+});
+
 contextBridge.exposeInMainWorld('dashboard', {
   startPet: () => ipcRenderer.send('dashboard:start-pet'),
   stopPet: () => ipcRenderer.send('dashboard:stop-pet'),

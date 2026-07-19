@@ -992,6 +992,133 @@ async function loadExtensions() {
 }
 
 // =============================================================================
+// MARKETPLACE
+// =============================================================================
+const marketplaceRefreshBtn = document.getElementById('marketplaceRefreshBtn');
+const marketplaceList = document.getElementById('marketplaceList');
+const marketplaceEmpty = document.getElementById('marketplaceEmpty');
+const marketplaceLoading = document.getElementById('marketplaceLoading');
+const marketplaceError = document.getElementById('marketplaceError');
+
+let marketplaceCache = [];
+
+marketplaceRefreshBtn.addEventListener('click', () => fetchMarketplace());
+
+async function fetchMarketplace() {
+  marketplaceList.innerHTML = '';
+  marketplaceEmpty.style.display = 'none';
+  marketplaceError.style.display = 'none';
+  marketplaceLoading.style.display = 'flex';
+
+  const result = await window.marketplace.fetchList();
+
+  marketplaceLoading.style.display = 'none';
+
+  if (!result.success) {
+    marketplaceError.textContent = 'Failed to fetch: ' + (result.error || 'Unknown error');
+    marketplaceError.style.display = 'block';
+    return;
+  }
+
+  marketplaceCache = result.extensions;
+
+  if (marketplaceCache.length === 0) {
+    marketplaceEmpty.innerHTML = '<p>No extensions available in the repository yet.</p>';
+    marketplaceEmpty.style.display = 'block';
+    return;
+  }
+
+  renderMarketplace();
+}
+
+function renderMarketplace() {
+  marketplaceList.innerHTML = '';
+  marketplaceEmpty.style.display = 'none';
+
+  marketplaceCache.forEach(ext => {
+    const card = document.createElement('div');
+    card.className = 'marketplace-card';
+
+    const icon = document.createElement('div');
+    icon.className = 'marketplace-card-icon' + (ext._installed ? ' installed' : '');
+    icon.innerHTML = ext._installed
+      ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>'
+      : '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>';
+
+    const info = document.createElement('div');
+    info.className = 'marketplace-card-info';
+
+    const name = document.createElement('p');
+    name.className = 'marketplace-card-name';
+    name.textContent = ext.name || ext.id;
+    const vBadge = document.createElement('span');
+    vBadge.className = 'extension-version';
+    vBadge.textContent = 'v' + (ext.version || '1.0.0');
+    name.appendChild(vBadge);
+
+    const meta = document.createElement('p');
+    meta.className = 'marketplace-card-meta';
+    meta.textContent = ext.author ? 'by ' + ext.author : '';
+
+    const desc = document.createElement('p');
+    desc.className = 'marketplace-card-desc';
+    desc.textContent = ext.description || '';
+
+    info.appendChild(name);
+    if (ext.author) info.appendChild(meta);
+    info.appendChild(desc);
+
+    const actions = document.createElement('div');
+    actions.className = 'marketplace-card-actions';
+
+    if (ext._installed) {
+      const uninstallBtn = document.createElement('button');
+      uninstallBtn.className = 'btn-uninstall';
+      uninstallBtn.textContent = 'Uninstall';
+      uninstallBtn.addEventListener('click', async () => {
+        uninstallBtn.disabled = true;
+        uninstallBtn.textContent = 'Removing...';
+        const res = await window.marketplace.uninstall(ext.id || ext._folderName);
+        if (res.success) {
+          ext._installed = false;
+          renderMarketplace();
+          loadExtensions();
+          updateStatusUI();
+        } else {
+          uninstallBtn.textContent = 'Error';
+          setTimeout(() => { uninstallBtn.textContent = 'Uninstall'; uninstallBtn.disabled = false; }, 2000);
+        }
+      });
+      actions.appendChild(uninstallBtn);
+    } else {
+      const installBtn = document.createElement('button');
+      installBtn.className = 'btn-install';
+      installBtn.textContent = 'Install';
+      installBtn.addEventListener('click', async () => {
+        installBtn.disabled = true;
+        installBtn.textContent = 'Installing...';
+        const res = await window.marketplace.install(ext._folderName);
+        if (res.success) {
+          ext._installed = true;
+          renderMarketplace();
+          loadExtensions();
+          updateStatusUI();
+        } else {
+          installBtn.textContent = 'Failed';
+          setTimeout(() => { installBtn.textContent = 'Install'; installBtn.disabled = false; }, 2000);
+        }
+      });
+      actions.appendChild(installBtn);
+    }
+
+    card.appendChild(icon);
+    card.appendChild(info);
+    card.appendChild(actions);
+    marketplaceList.appendChild(card);
+  });
+}
+
+// =============================================================================
 // SETTINGS
 // =============================================================================
 const idePathInput = document.getElementById('idePathInput');

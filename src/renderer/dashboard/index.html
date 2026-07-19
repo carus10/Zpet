@@ -190,8 +190,32 @@
           <h2>Extensions</h2>
           <p class="subtitle">Hook additional tools into the engine's state machine.</p>
         </div>
+
+        <!-- Installed Extensions -->
+        <div class="card-section-label" style="margin-bottom:12px;">Installed</div>
         <div id="extensionsList" class="extensions-list"></div>
         <div id="extensionsEmpty" class="empty-state" style="display:none;">No extensions installed.</div>
+
+        <!-- Marketplace -->
+        <div class="marketplace-section">
+          <div class="marketplace-header">
+            <div class="card-section-label">Download Extensions</div>
+            <button id="marketplaceRefreshBtn" class="btn-secondary marketplace-refresh-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+              Refresh
+            </button>
+          </div>
+          <p class="marketplace-desc">Browse and install extensions from the Zpet community repository.</p>
+          <div id="marketplaceList" class="marketplace-list"></div>
+          <div id="marketplaceEmpty" class="marketplace-empty">
+            <p>Click <strong>Refresh</strong> to load available extensions from GitHub.</p>
+          </div>
+          <div id="marketplaceLoading" class="marketplace-loading" style="display:none;">
+            <div class="loading-spinner small"></div>
+            <span>Fetching extensions...</span>
+          </div>
+          <div id="marketplaceError" class="marketplace-error" style="display:none;"></div>
+        </div>
       </section>
 
       <!-- Settings View -->
