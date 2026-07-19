@@ -29,17 +29,21 @@ navItems.forEach(item => {
 
 // --- Pet Toggle --------------------------------------------------------------
 let isRunning = false;
+let renderSubListGeneration = 0;
 
 async function renderEngineSubList() {
   const subList = document.getElementById('engineSubList');
   if (!subList) return;
 
-  // Always show the sub-list so user can configure while engine is off
-  subList.style.display = 'flex';
-  subList.innerHTML = '';
+  const myGen = ++renderSubListGeneration;
 
   const prefs = await window.dashboard.getEnginePrefs();
   const extensions = await window.extensions.getAll();
+
+  if (myGen !== renderSubListGeneration) return;
+
+  subList.style.display = 'flex';
+  subList.innerHTML = '';
 
   function makeStatus(active) {
     const s = document.createElement('span');
@@ -61,8 +65,7 @@ async function renderEngineSubList() {
   petStatus.id = 'petSubStatus';
 
   const petToggleLabel = document.createElement('label');
-  petToggleLabel.className = 'switch-container';
-  petToggleLabel.style.cssText = 'width:40px;height:22px;';
+  petToggleLabel.className = 'switch-container switch-small';
   const petInput = document.createElement('input');
   petInput.type = 'checkbox';
   petInput.checked = prefs.petEnabled !== false;
@@ -97,8 +100,7 @@ async function renderEngineSubList() {
     const extStatus = makeStatus(ext.enabled && ext.running);
 
     const extToggleLabel = document.createElement('label');
-    extToggleLabel.className = 'switch-container';
-    extToggleLabel.style.cssText = 'width:40px;height:22px;';
+    extToggleLabel.className = 'switch-container switch-small';
     const extInput = document.createElement('input');
     extInput.type = 'checkbox';
     extInput.checked = ext.enabled;

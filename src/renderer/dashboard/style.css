@@ -261,6 +261,10 @@ body {
 input:checked + .slider { background-color: var(--success); }
 input:checked + .slider:before { transform: translateX(24px); }
 
+.switch-container.switch-small { width: 40px; height: 22px; flex-shrink: 0; }
+.switch-small .slider:before { height: 16px; width: 16px; left: 3px; bottom: 3px; }
+.switch-small input:checked + .slider:before { transform: translateX(18px); }
+
 /* Stats Grid */
 .grid-cards {
   display: grid;
