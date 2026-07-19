@@ -1,0 +1,30 @@
+{
+  "name": "zpet",
+  "version": "1.0.0",
+  "description": "ZCode (Claude Code) hook event'lerine tepki veren masaustu pet",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win"
+  },
+  "build": {
+    "appId": "com.zpet.app",
+    "productName": "Zpet",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^26.15.3"
+  },
+  "dependencies": {
+    "archiver": "^7.0.0",
+    "extract-zip": "^2.0.1"
+  }
+}

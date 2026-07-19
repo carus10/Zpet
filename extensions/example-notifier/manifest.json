@@ -1,0 +1,23 @@
+{
+  "id": "example-notifier",
+  "name": "Example Notifier",
+  "version": "1.0.0",
+  "description": "Logs pet state changes to the console. Use this as a template for building your own extensions.",
+  "author": "Zpet Team",
+  "main": "main.js",
+  "settingsSchema": [
+    {
+      "key": "logLevel",
+      "label": "Log Level",
+      "type": "select",
+      "options": ["info", "debug", "silent"],
+      "default": "info"
+    },
+    {
+      "key": "showTimestamp",
+      "label": "Show Timestamp",
+      "type": "toggle",
+      "default": true
+    }
+  ]
+}

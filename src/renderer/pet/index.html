@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'none'; img-src 'self' data: file:; style-src 'self' 'unsafe-inline'; script-src 'self';" />
+  <title>Pet</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="pet" class="pet" data-state="idle">
+    <!-- GIF varsa burada gosterilir -->
+    <img id="gif" class="gif" alt="" draggable="false" />
+    <!-- GIF yoksa emoji gosterilir -->
+    <span id="emoji" class="emoji">🤖</span>
+    <!-- Gizli cikis butonu (sadece hover'da) -->
+    <button id="quit" class="quit" title="Cikis">&times;</button>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>

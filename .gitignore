@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# User data (local to each machine)
+user_data/
+
+# Debug/log files
+db_log.txt
+debug_query_values.txt
+debug_states.txt
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Electron
+out/
+
+# Claude/ZCode internal
+.claude/
+.commandcode/
+.zcode/
+
+# Development notes (local only)
+AGENTS.md
+PROGRESS.md
+monitor.py
+
+# Extension user settings (generated at runtime)
+extensions/*/settings.json
+
+# Environment
+.env
+.env.local
