@@ -87,8 +87,9 @@ async function renderEngineSubList() {
   petRow.appendChild(petToggleLabel);
   subList.appendChild(petRow);
 
-  // Extension rows
+  // Extension rows — only show enabled extensions on dashboard
   for (const ext of extensions) {
+    if (!ext.enabled) continue;
     const row = document.createElement('div');
     row.className = 'engine-sub-item';
     const extIcon = document.createElement('span');
@@ -97,26 +98,10 @@ async function renderEngineSubList() {
     const extLabel = document.createElement('span');
     extLabel.className = 'engine-sub-label';
     extLabel.textContent = ext.name;
-    const extStatus = makeStatus(ext.enabled && ext.running);
-
-    const extToggleLabel = document.createElement('label');
-    extToggleLabel.className = 'switch-container switch-small';
-    const extInput = document.createElement('input');
-    extInput.type = 'checkbox';
-    extInput.checked = ext.enabled;
-    extInput.addEventListener('change', async () => {
-      await window.extensions.setEnabled(ext.id, extInput.checked);
-      extStatus.textContent = isRunning ? (extInput.checked ? 'Running' : 'Stopped') : 'Engine off';
-      extStatus.className = 'engine-sub-status' + (isRunning && extInput.checked ? ' active' : '');
-    });
-    const extSlider = document.createElement('span');
-    extSlider.className = 'slider';
-    extToggleLabel.appendChild(extInput);
-    extToggleLabel.appendChild(extSlider);
+    const extStatus = makeStatus(true);
     row.appendChild(extIcon);
     row.appendChild(extLabel);
     row.appendChild(extStatus);
-    row.appendChild(extToggleLabel);
     subList.appendChild(row);
   }
 }
