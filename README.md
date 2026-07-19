@@ -1,12 +1,12 @@
 # Zpet
 
-A desktop pet companion that reacts to your IDE and CLI activity in real time. Built with Electron, Zpet watches your coding tools and animates a customizable pet overlay based on your current state — idle, working, or waiting.
+A desktop pet companion that reacts to your **Antigravity IDE** and **Antigravity CLI** activity in real time. Built with Electron, Zpet watches your Antigravity tools and animates a customizable pet overlay based on your current state — idle, working, or waiting.
 
 ![Zpet Example](assets/screnshoots/example.png)
 
 ## Features
 
-- **Real-time activity detection** — Monitors IDE (Antigravity) and CLI tools for file changes
+- **Real-time activity detection** — Monitors Antigravity IDE and Antigravity CLI for file changes
 - **Three pet states** — Idle, Working, and Waiting with smooth transitions
 - **Custom GIF library** — Import and organize your own animations into folders
 - **Profile system** — Create multiple profiles with different GIF sets per state
@@ -63,12 +63,23 @@ npm start
 npm run build
 ```
 
+## Compatibility
+
+Zpet works exclusively with **Antigravity** tools:
+
+| Tool | What it watches | Default path |
+|------|----------------|--------------|
+| **Antigravity IDE** | Conversation database files (`.db`, `.db-wal`, `.db-shm`) | `~/.gemini/antigravity-ide/conversations` |
+| **Antigravity CLI** | Brain log files (`.jsonl`, `.json`) | `~/.gemini/antigravity-cli/brain` |
+
+Both paths can be customized in **Settings > Watchers**. You can run IDE-only, CLI-only, or both simultaneously.
+
 ## How It Works
 
-Zpet monitors file system changes in your IDE/CLI data directories:
+Zpet monitors file system changes in your Antigravity data directories:
 
-1. **IDE Watcher** — Watches Antigravity IDE conversation database files (`.db`, `.db-wal`, `.db-shm`) with both `fs.watch` and 300ms polling for reliability
-2. **CLI Watcher** — Watches Antigravity CLI brain log files (`.jsonl`, `.json`) and dynamically follows the most recently active session
+1. **Antigravity IDE Watcher** — Watches conversation database files (`.db`, `.db-wal`, `.db-shm`) with both `fs.watch` and 300ms polling for reliability
+2. **Antigravity CLI Watcher** — Watches brain log files (`.jsonl`, `.json`) and dynamically follows the most recently active session
 
 **State transitions:**
 - Activity detected → **Working**
