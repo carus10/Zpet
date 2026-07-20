@@ -3,6 +3,21 @@
 const { app, BrowserWindow, ipcMain, Tray, Menu, nativeImage, dialog, shell } = require('electron');
 const path = require('path');
 const fs = require('fs');
+const log = require('electron-log');
+const { autoUpdater } = require('electron-updater');
+
+// Hata yonetimi ve loglama (Part 4)
+log.initialize();
+autoUpdater.logger = log;
+autoUpdater.logger.transports.file.level = 'info';
+process.on('uncaughtException', (error) => {
+  log.error('Uncaught Exception:', error);
+  if (sm) sm.setState({ source: 'system', state: 'error' });
+});
+process.on('unhandledRejection', (reason, promise) => {
+  log.error('Unhandled Rejection at:', promise, 'reason:', reason);
+  if (sm) sm.setState({ source: 'system', state: 'error' });
+});
 
 const { WINDOW_WIDTH, WINDOW_HEIGHT, ASSETS_DIR, WATCH_MODE, ANTIGRAVITY } = require('../config');
 const { createStateMachine } = require('./stateMachine');
@@ -118,7 +133,7 @@ const defaultProfiles = {
   profiles: [{
     id: 'profile_1',
     name: 'Default Theme',
-    states: { idle: [], working: [], waiting: [] }
+    states: { idle: [], working: [], waiting: [], error: [] }
   }]
 };
 
@@ -294,7 +309,11 @@ function rebuildTrayMenu(state) {
         else dashboardWindow.isVisible() ? dashboardWindow.hide() : dashboardWindow.show();
       }
     },
-    { label: 'Reset to Idle', click: () => sm.setState({ source: 'manual', state: 'idle' }) },
+    { label: 'Reset to Idle', click: () => {
+        sm.setState({ source: 'system', state: 'idle' });
+        sm.setState({ source: 'manual', state: 'idle' });
+      }
+    },
     { type: 'separator' },
     { label: 'Exit', click: () => { app.isQuitting = true; app.quit(); } },
   ]);
@@ -873,6 +892,7 @@ app.whenReady().then(() => {
   createDashboardWindow();
   createTray();
   console.log('[pet] App started. Dashboard opened.');
+  autoUpdater.checkForUpdatesAndNotify();
 });
 
 app.on('window-all-closed', () => app.quit());

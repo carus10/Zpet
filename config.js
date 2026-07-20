@@ -7,6 +7,7 @@ const WINDOW_WIDTH = 200;
 const WINDOW_HEIGHT = 200;
 
 const STATE_PRIORITY = {
+  error: 10,
   waiting: 5,
   working: 3,
   idle: 1,

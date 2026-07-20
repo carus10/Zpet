@@ -5,6 +5,21 @@
 
 const { STATE_PRIORITY } = require('../config');
 
+/**
+ * @typedef {Object} StateChangeEvent
+ * @property {string} source - The source of the state change (e.g. 'antigravity', 'system')
+ * @property {string} state - The new state (e.g. 'idle', 'working', 'waiting', 'error')
+ */
+
+/**
+ * Creates a state machine for managing pet states from multiple sources.
+ * @param {(state: string, prevState: string) => void} [onChange] Callback triggered when the effective state changes.
+ * @returns {{
+ *   setState: (event: StateChangeEvent) => void,
+ *   removeSource: (name: string) => void,
+ *   getEffectiveState: () => string
+ * }}
+ */
 function createStateMachine(onChange) {
   const sources = new Map();
   let effectiveState = 'idle';

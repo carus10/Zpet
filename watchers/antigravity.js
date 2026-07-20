@@ -1,6 +1,7 @@
 'use strict';
 
 const fs = require('fs');
+const fsPromises = require('fs').promises;
 const path = require('path');
 const { ANTIGRAVITY } = require('../config');
 
@@ -46,36 +47,56 @@ function createAntigravityWatcher(onState, customConvDir) {
     }, WAITING_DELAY);
   }
 
-  // Dizindeki en yeni mtime'i bul
-  function getNewestMtime() {
+  let isPolling = false;
+
+  // Dizindeki en yeni mtime'i bul (Asenkron)
+  async function getNewestMtime() {
     let newest = 0;
     try {
-      const files = fs.readdirSync(convDir);
-      for (const f of files) {
-        if (!f.endsWith('.db') && !f.endsWith('.db-wal') && !f.endsWith('.db-shm')) continue;
-        try {
-          const mt = fs.statSync(path.join(convDir, f)).mtimeMs;
-          if (mt > newest) newest = mt;
-        } catch (_) {}
+      const files = await fsPromises.readdir(convDir);
+      const statPromises = files
+        .filter(f => f.endsWith('.db') || f.endsWith('.db-wal') || f.endsWith('.db-shm'))
+        .map(async (f) => {
+          try {
+            const stat = await fsPromises.stat(path.join(convDir, f));
+            return stat.mtimeMs;
+          } catch (_) {
+            return 0;
+          }
+        });
+      
+      const mtimes = await Promise.all(statPromises);
+      if (mtimes.length > 0) {
+        newest = Math.max(...mtimes);
       }
     } catch (_) {}
     return newest;
   }
 
-  // Poll: mtime degisti mi kontrol et
-  function pollCheck() {
-    const mt = getNewestMtime();
-    if (mt > lastSeenMtime) {
-      lastSeenMtime = mt;
-      onActivity();
+  // Poll: mtime degisti mi kontrol et (Asenkron)
+  async function pollCheck() {
+    if (isPolling) return; // Onceki islem bitmediyse atla
+    isPolling = true;
+    try {
+      const mt = await getNewestMtime();
+      if (lastSeenMtime > 0 && mt > lastSeenMtime) {
+        lastSeenMtime = mt;
+        onActivity();
+      } else if (lastSeenMtime === 0 && mt > 0) {
+        lastSeenMtime = mt;
+      }
+    } finally {
+      isPolling = false;
     }
   }
 
   function start() {
     if (pollTimer) return;
 
-    // Baslangic mtime kaydet
-    lastSeenMtime = getNewestMtime();
+    // Baslangic mtime'i asenkron kaydet
+    getNewestMtime().then(mt => {
+      if (lastSeenMtime === 0) lastSeenMtime = mt;
+    });
 
     // fs.watch - anlik tetikleme
     try {

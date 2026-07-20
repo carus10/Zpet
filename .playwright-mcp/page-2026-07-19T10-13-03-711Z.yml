@@ -1,0 +1,1566 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "nitter" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - link [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "Logo" [ref=e7]
+      - generic [ref=e8]:
+        - link "" [ref=e10] [cursor=pointer]:
+          - /url: /search
+        - link "" [ref=e12] [cursor=pointer]:
+          - /url: https://x.com/elonmusk/status/2078741450812965182
+        - link [ref=e13] [cursor=pointer]:
+          - /url: https://liberapay.com/zedeus
+        - link "" [ref=e19] [cursor=pointer]:
+          - /url: /about
+        - link "" [ref=e21] [cursor=pointer]:
+          - /url: /settings?referer=%2Felonmusk%2Fstatus%2F2078741450812965182%23m
+  - generic [ref=e23]:
+    - generic [ref=e26]:
+      - generic:
+        - generic:
+          - generic:
+            - link [ref=e27] [cursor=pointer]:
+              - /url: /elonmusk
+            - generic:
+              - generic:
+                - link "Elon Musk" [ref=e28] [cursor=pointer]:
+                  - /url: /elonmusk
+                - generic:
+                  - generic:
+                    - generic "Verified blue account": 
+                  - generic:
+                    - generic "Verified blue account": 
+                - link "@elonmusk" [ref=e29] [cursor=pointer]:
+                  - /url: /elonmusk
+              - link "2h" [ref=e30] [cursor=pointer]:
+                - /url: /elonmusk/status/2078741450812965182#m
+        - link [ref=e31] [cursor=pointer]:
+          - /url: /dvorahfr/status/2078647568116924900
+          - strong [ref=e32]: Déborah
+        - generic [ref=e35]:
+          - button "Enable hls playback" [ref=e39] [cursor=pointer]
+          - link "" [ref=e40] [cursor=pointer]:
+            - /url: /video/856AA4C9B6D17/https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2078647190453411840%2Fvid%2Favc1%2F1080x1642%2FlxTu8sJiKJI_4Vmk.mp4%3Ftag%3D29
+        - paragraph [ref=e43]: Jul 19, 2026 · 7:19 AM UTC
+        - generic:
+          - generic:
+            - generic:
+              - generic: 
+              - text: 1,752
+          - generic:
+            - generic:
+              - generic: 
+              - text: "633"
+          - generic:
+            - generic:
+              - generic: 
+              - text: 4,812
+          - generic:
+            - generic:
+              - generic: 
+              - text: 1,057,599
+    - generic [ref=e44]:
+      - generic [ref=e45]: "Sort replies:"
+      - link "Relevant" [ref=e46] [cursor=pointer]:
+        - /url: "?sort=Relevance#r"
+      - link "Recent" [ref=e47] [cursor=pointer]:
+        - /url: "?sort=Recency#r"
+      - link "Liked" [ref=e48] [cursor=pointer]:
+        - /url: "?sort=Likes#r"
+    - generic [ref=e49]:
+      - generic [ref=e51]:
+        - link [ref=e52] [cursor=pointer]:
+          - /url: /Glitter_Spite/status/2078777897649582125#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e53] [cursor=pointer]:
+                - /url: /Glitter_Spite
+              - generic:
+                - generic:
+                  - link "Glitter & Spite" [ref=e54] [cursor=pointer]:
+                    - /url: /Glitter_Spite
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@Glitter_Spite" [ref=e55] [cursor=pointer]:
+                    - /url: /Glitter_Spite
+                - link "28m" [ref=e56] [cursor=pointer]:
+                  - /url: /Glitter_Spite/status/2078777897649582125#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e57] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: Elon definitely has a very specific type 😂
+          - generic:
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "2"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "5"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "355"
+      - generic [ref=e59]:
+        - link [ref=e60] [cursor=pointer]:
+          - /url: /XPurplePill/status/2078779689792139486#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e61] [cursor=pointer]:
+                - /url: /XPurplePill
+              - generic:
+                - generic:
+                  - link "Purple🟣Pill" [ref=e62] [cursor=pointer]:
+                    - /url: /XPurplePill
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@XPurplePill" [ref=e63] [cursor=pointer]:
+                    - /url: /XPurplePill
+                - link "21m" [ref=e64] [cursor=pointer]:
+                  - /url: /XPurplePill/status/2078779689792139486#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e65] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: Why you are posting AI slops 🙄
+          - generic:
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "1"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "2"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "331"
+      - generic [ref=e67]:
+        - link [ref=e68] [cursor=pointer]:
+          - /url: /DraftsAndDrama_/status/2078773606537187753#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e69] [cursor=pointer]:
+                - /url: /DraftsAndDrama_
+              - generic:
+                - generic:
+                  - link "DraftsAndDrama" [ref=e70] [cursor=pointer]:
+                    - /url: /DraftsAndDrama_
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@DraftsAndDrama_" [ref=e71] [cursor=pointer]:
+                    - /url: /DraftsAndDrama_
+                - link "45m" [ref=e72] [cursor=pointer]:
+                  - /url: /DraftsAndDrama_/status/2078773606537187753#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e73] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: Grok's work, day by day 📈📈
+          - generic:
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "1"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "3"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "726"
+      - generic [ref=e75]:
+        - link [ref=e76] [cursor=pointer]:
+          - /url: /OficialSlim/status/2078762801477161036#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e77] [cursor=pointer]:
+                - /url: /OficialSlim
+              - generic:
+                - generic:
+                  - link "Sir Steve🇰🇪 𝕏" [ref=e78] [cursor=pointer]:
+                    - /url: /OficialSlim
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@OficialSlim" [ref=e79] [cursor=pointer]:
+                    - /url: /OficialSlim
+                - link "1h" [ref=e80] [cursor=pointer]:
+                  - /url: /OficialSlim/status/2078762801477161036#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e81] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: Videos are now almost like real ones. Hope IG babes won’t use them to lure Money gangs.
+          - generic:
+            - generic: 
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "3"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "376"
+      - generic [ref=e83]:
+        - link [ref=e84] [cursor=pointer]:
+          - /url: /TruthQuest1122/status/2078784624151409032#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e85] [cursor=pointer]:
+                - /url: /TruthQuest1122
+              - generic:
+                - generic:
+                  - link "Wanda Woodward" [ref=e86] [cursor=pointer]:
+                    - /url: /TruthQuest1122
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@TruthQuest1122" [ref=e87] [cursor=pointer]:
+                    - /url: /TruthQuest1122
+                - link "2m" [ref=e88] [cursor=pointer]:
+                  - /url: /TruthQuest1122/status/2078784624151409032#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e89] [cursor=pointer]:
+              - /url: /elonmusk
+          - generic [ref=e90]:
+            - link "@dvorahfr" [ref=e91] [cursor=pointer]:
+              - /url: /dvorahfr
+            - text: You always create refined, sophisticated, classy videos of women. I appreciate your cultured taste. ♥️
+          - generic:
+            - generic: 
+            - generic: 
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "8"
+      - generic [ref=e93]:
+        - link [ref=e94] [cursor=pointer]:
+          - /url: /Edogboeneche/status/2078770839990718794#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e95] [cursor=pointer]:
+                - /url: /Edogboeneche
+              - generic:
+                - generic:
+                  - link "Dr. Eneche 🏴󠁧󠁢󠁥󠁮󠁧󠁿" [ref=e96] [cursor=pointer]:
+                    - /url: /Edogboeneche
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@Edogboeneche" [ref=e97] [cursor=pointer]:
+                    - /url: /Edogboeneche
+                - link "56m" [ref=e98] [cursor=pointer]:
+                  - /url: /Edogboeneche/status/2078770839990718794#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e99] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: I have been wondering why I was not seeing your post on my timeline again. I thought you were shadow banned? Anyways, feels good to read from you again.
+          - generic:
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "3"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "5"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "423"
+      - generic [ref=e101]:
+        - link [ref=e102] [cursor=pointer]:
+          - /url: /Stqr_loner/status/2078772688147902873#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e103] [cursor=pointer]:
+                - /url: /Stqr_loner
+              - generic:
+                - generic:
+                  - link "Omolasho(bluetick)" [ref=e104] [cursor=pointer]:
+                    - /url: /Stqr_loner
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@Stqr_loner" [ref=e105] [cursor=pointer]:
+                    - /url: /Stqr_loner
+                - link "49m" [ref=e106] [cursor=pointer]:
+                  - /url: /Stqr_loner/status/2078772688147902873#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e107] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: Elon musk and posting the clingiest things ever
+          - generic:
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "2"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "6"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "304"
+      - generic [ref=e109]:
+        - link [ref=e110] [cursor=pointer]:
+          - /url: /just_uzumaki/status/2078769570404290858#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e111] [cursor=pointer]:
+                - /url: /just_uzumaki
+              - generic:
+                - generic:
+                  - link "Just Uzumáki" [ref=e112] [cursor=pointer]:
+                    - /url: /just_uzumaki
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@just_uzumaki" [ref=e113] [cursor=pointer]:
+                    - /url: /just_uzumaki
+                - link "1h" [ref=e114] [cursor=pointer]:
+                  - /url: /just_uzumaki/status/2078769570404290858#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e115] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: When musk posts cringe AI Then I recall he owns cringe AI... Grok is imagine is dope tho ✨
+          - generic:
+            - generic:
+              - generic:
+                - generic: 
+                - text: "1"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "1"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "10"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "665"
+      - generic [ref=e117]:
+        - link [ref=e118] [cursor=pointer]:
+          - /url: /7Olusegun/status/2078772205941399612#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e119] [cursor=pointer]:
+                - /url: /7Olusegun
+              - generic:
+                - generic:
+                  - link "𝐎𝐥𝐮𝐬𝐞𝐠𝐮𝐧" [ref=e120] [cursor=pointer]:
+                    - /url: /7Olusegun
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@7Olusegun" [ref=e121] [cursor=pointer]:
+                    - /url: /7Olusegun
+                - link "51m" [ref=e122] [cursor=pointer]:
+                  - /url: /7Olusegun/status/2078772205941399612#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e123] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: Grok has really improved to becoming original
+          - generic:
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "2"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "7"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "252"
+      - generic [ref=e125]:
+        - link [ref=e126] [cursor=pointer]:
+          - /url: /miheernp/status/2078779856964538451#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e127] [cursor=pointer]:
+                - /url: /miheernp
+              - generic:
+                - generic:
+                  - link "Miheer" [ref=e128] [cursor=pointer]:
+                    - /url: /miheernp
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@miheernp" [ref=e129] [cursor=pointer]:
+                    - /url: /miheernp
+                - link "21m" [ref=e130] [cursor=pointer]:
+                  - /url: /miheernp/status/2078779856964538451#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e131] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: Chinese AI is too far ahead with video generation. They have 1hr AI movies trending on Chinese social media.
+          - generic:
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "1"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "2"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "152"
+      - generic [ref=e133]:
+        - link [ref=e134] [cursor=pointer]:
+          - /url: /Silo1986/status/2078769750646444227#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e135] [cursor=pointer]:
+                - /url: /Silo1986
+              - generic:
+                - generic:
+                  - link "Silo" [ref=e136] [cursor=pointer]:
+                    - /url: /Silo1986
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@Silo1986" [ref=e137] [cursor=pointer]:
+                    - /url: /Silo1986
+                - link "1h" [ref=e138] [cursor=pointer]:
+                  - /url: /Silo1986/status/2078769750646444227#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e139] [cursor=pointer]:
+              - /url: /elonmusk
+          - paragraph [ref=e143]: ALT Animated GIF
+          - generic:
+            - generic: 
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "1"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "120"
+      - generic [ref=e145]:
+        - link [ref=e146] [cursor=pointer]:
+          - /url: /OneTrustDriven/status/2078750021780967465#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e147] [cursor=pointer]:
+                - /url: /OneTrustDriven
+              - generic:
+                - generic:
+                  - link "Melissa" [ref=e148] [cursor=pointer]:
+                    - /url: /OneTrustDriven
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@OneTrustDriven" [ref=e149] [cursor=pointer]:
+                    - /url: /OneTrustDriven
+                - link "2h" [ref=e150] [cursor=pointer]:
+                  - /url: /OneTrustDriven/status/2078750021780967465#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e151] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: More the yellow dress or no dress at all
+          - generic:
+            - generic:
+              - generic:
+                - generic: 
+                - text: "2"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "1"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "3"
+            - generic:
+              - generic:
+                - generic: 
+                - text: 2,032
+      - generic [ref=e153]:
+        - link [ref=e154] [cursor=pointer]:
+          - /url: /Michaelrow49/status/2078770831346598244#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e155] [cursor=pointer]:
+                - /url: /Michaelrow49
+              - generic:
+                - generic:
+                  - link "MichaelrowUrboat" [ref=e156] [cursor=pointer]:
+                    - /url: /Michaelrow49
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@Michaelrow49" [ref=e157] [cursor=pointer]:
+                    - /url: /Michaelrow49
+                - link "57m" [ref=e158] [cursor=pointer]:
+                  - /url: /Michaelrow49/status/2078770831346598244#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e159] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: Grok is creating Human perfect now👁️👁️
+          - generic:
+            - generic:
+              - generic:
+                - generic: 
+                - text: "4"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "1"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "12"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "565"
+      - generic [ref=e161]:
+        - link [ref=e162] [cursor=pointer]:
+          - /url: /bSzlapZVzI81270/status/2078762048360726615#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e163] [cursor=pointer]:
+                - /url: /bSzlapZVzI81270
+              - generic:
+                - generic:
+                  - link "🛥️" [ref=e164] [cursor=pointer]:
+                    - /url: /bSzlapZVzI81270
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@bSzlapZVzI81270" [ref=e165] [cursor=pointer]:
+                    - /url: /bSzlapZVzI81270
+                - link "1h" [ref=e166] [cursor=pointer]:
+                  - /url: /bSzlapZVzI81270/status/2078762048360726615#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e167] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: Chip in your head, and you can go to the beach without leaving your house? I don’t know who created you all, but your purpose is incredibly thin.
+          - generic:
+            - generic:
+              - generic:
+                - generic: 
+                - text: "1"
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "2"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "972"
+      - generic [ref=e169]:
+        - link [ref=e170] [cursor=pointer]:
+          - /url: /Twittime99/status/2078773099672268813#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e171] [cursor=pointer]:
+                - /url: /Twittime99
+              - generic:
+                - generic:
+                  - link "Sat J" [ref=e172] [cursor=pointer]:
+                    - /url: /Twittime99
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@Twittime99" [ref=e173] [cursor=pointer]:
+                    - /url: /Twittime99
+                - link "47m" [ref=e174] [cursor=pointer]:
+                  - /url: /Twittime99/status/2078773099672268813#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e175] [cursor=pointer]:
+              - /url: /elonmusk
+          - generic [ref=e176]:
+            - link "@elonmusk" [ref=e177] [cursor=pointer]:
+              - /url: /elonmusk
+            - text: Are you really making beach people for solo travellers! wow 🤩
+            - link "@grok" [ref=e178] [cursor=pointer]:
+              - /url: /grok
+            - link "@imagine" [ref=e179] [cursor=pointer]:
+              - /url: /imagine
+            - text: Will we see a future like this when one will get a companion at the beach, he or she will travel😛
+          - generic:
+            - generic:
+              - generic:
+                - generic: 
+                - text: "2"
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "2"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "771"
+      - generic [ref=e181]:
+        - link [ref=e182] [cursor=pointer]:
+          - /url: /ProfSK5/status/2078760440285597711#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e183] [cursor=pointer]:
+                - /url: /ProfSK5
+              - generic:
+                - generic:
+                  - link "ProfSK" [ref=e184] [cursor=pointer]:
+                    - /url: /ProfSK5
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@ProfSK5" [ref=e185] [cursor=pointer]:
+                    - /url: /ProfSK5
+                - link "1h" [ref=e186] [cursor=pointer]:
+                  - /url: /ProfSK5/status/2078760440285597711#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e187] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: अरे ये क्या पोस्ट कर दिया एलोन भाई …….😄
+          - generic:
+            - generic: 
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "1"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "177"
+      - generic [ref=e189]:
+        - link [ref=e190] [cursor=pointer]:
+          - /url: /mwinezadoc/status/2078762061333430531#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e191] [cursor=pointer]:
+                - /url: /mwinezadoc
+              - generic:
+                - generic:
+                  - link "Gumite" [ref=e192] [cursor=pointer]:
+                    - /url: /mwinezadoc
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@mwinezadoc" [ref=e193] [cursor=pointer]:
+                    - /url: /mwinezadoc
+                - link "1h" [ref=e194] [cursor=pointer]:
+                  - /url: /mwinezadoc/status/2078762061333430531#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e195] [cursor=pointer]:
+              - /url: /elonmusk
+            - link "@Mghazake" [ref=e196] [cursor=pointer]:
+              - /url: /Mghazake
+          - text: Elon and women 🤞 just one minute man type
+          - generic:
+            - generic:
+              - generic:
+                - generic: 
+                - text: "1"
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "3"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "871"
+      - generic [ref=e198]:
+        - link [ref=e199] [cursor=pointer]:
+          - /url: /ShaelEX11/status/2078758047640645912#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e200] [cursor=pointer]:
+                - /url: /ShaelEX11
+              - generic:
+                - generic:
+                  - link "Isabella Shael-X" [ref=e201] [cursor=pointer]:
+                    - /url: /ShaelEX11
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@ShaelEX11" [ref=e202] [cursor=pointer]:
+                    - /url: /ShaelEX11
+                - link "1h" [ref=e203] [cursor=pointer]:
+                  - /url: /ShaelEX11/status/2078758047640645912#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e204] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: You're sick in the head. You'd have to be fucking crazy to keep reposting the same person over and over again. Wtf is wrong with you ?!!
+          - generic:
+            - generic:
+              - generic:
+                - generic: 
+                - text: "1"
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "5"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "422"
+      - generic [ref=e206]:
+        - link [ref=e207] [cursor=pointer]:
+          - /url: /caniaffoirdit/status/2078765422598324530#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e208] [cursor=pointer]:
+                - /url: /caniaffoirdit
+              - generic:
+                - generic:
+                  - link "Chad" [ref=e209] [cursor=pointer]:
+                    - /url: /caniaffoirdit
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@caniaffoirdit" [ref=e210] [cursor=pointer]:
+                    - /url: /caniaffoirdit
+                - link "1h" [ref=e211] [cursor=pointer]:
+                  - /url: /caniaffoirdit/status/2078765422598324530#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e212] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: I’d rather see a real woman tbh. Me being a man and all that. I can’t hug and hold a media clip.
+          - generic:
+            - generic:
+              - generic:
+                - generic: 
+                - text: "1"
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "7"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "908"
+      - generic [ref=e214]:
+        - link [ref=e215] [cursor=pointer]:
+          - /url: /PloyAuraX/status/2078743153084084224#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e216] [cursor=pointer]:
+                - /url: /PloyAuraX
+              - generic:
+                - generic:
+                  - link "PloyAuraX" [ref=e217] [cursor=pointer]:
+                    - /url: /PloyAuraX
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@PloyAuraX" [ref=e218] [cursor=pointer]:
+                    - /url: /PloyAuraX
+                - link "2h" [ref=e219] [cursor=pointer]:
+                  - /url: /PloyAuraX/status/2078743153084084224#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e220] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: I looooooove AI, and use Grok all the time. Amazing stuff!!
+          - generic:
+            - generic:
+              - generic:
+                - generic: 
+                - text: "2"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "3"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "9"
+            - generic:
+              - generic:
+                - generic: 
+                - text: 1,585
+      - generic [ref=e222]:
+        - link [ref=e223] [cursor=pointer]:
+          - /url: /Umar996996/status/2078772490701328879#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e224] [cursor=pointer]:
+                - /url: /Umar996996
+              - generic:
+                - generic:
+                  - link "Umar" [ref=e225] [cursor=pointer]:
+                    - /url: /Umar996996
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@Umar996996" [ref=e226] [cursor=pointer]:
+                    - /url: /Umar996996
+                - link "50m" [ref=e227] [cursor=pointer]:
+                  - /url: /Umar996996/status/2078772490701328879#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e228] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: Sexual objectification, European culture is doomed... Where are Christians?
+          - generic:
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "2"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "7"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "323"
+      - generic [ref=e230]:
+        - link [ref=e231] [cursor=pointer]:
+          - /url: /Radha72342/status/2078754709888966758#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e232] [cursor=pointer]:
+                - /url: /Radha72342
+              - generic:
+                - generic:
+                  - link "Hiten Shah" [ref=e233] [cursor=pointer]:
+                    - /url: /Radha72342
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@Radha72342" [ref=e234] [cursor=pointer]:
+                    - /url: /Radha72342
+                - link "2h" [ref=e235] [cursor=pointer]:
+                  - /url: /Radha72342/status/2078754709888966758#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e236] [cursor=pointer]:
+              - /url: /elonmusk
+          - generic [ref=e237]:
+            - text: Need One
+            - link "@Tesla" [ref=e238] [cursor=pointer]:
+              - /url: /Tesla
+            - text: to impress her..
+          - generic:
+            - generic:
+              - generic:
+                - generic: 
+                - text: "2"
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "2"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "623"
+      - generic [ref=e240]:
+        - link [ref=e241] [cursor=pointer]:
+          - /url: /beauty__finance/status/2078749079245381862#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e242] [cursor=pointer]:
+                - /url: /beauty__finance
+              - generic:
+                - generic:
+                  - link "CarloFinanzas" [ref=e243] [cursor=pointer]:
+                    - /url: /beauty__finance
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@beauty__finance" [ref=e244] [cursor=pointer]:
+                    - /url: /beauty__finance
+                - link "2h" [ref=e245] [cursor=pointer]:
+                  - /url: /beauty__finance/status/2078749079245381862#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e246] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: todavía le queda, demasiado perfecta la cara sin ningun rasgo de imperfección en la piel... es video de pelicula de inteligencia artificial, pero no de realidad humana
+          - generic:
+            - generic: 
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "5"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "675"
+      - generic [ref=e248]:
+        - link [ref=e249] [cursor=pointer]:
+          - /url: /BkashJosi/status/2078756131812573302#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e250] [cursor=pointer]:
+                - /url: /BkashJosi
+              - generic:
+                - generic:
+                  - link "Hermes & Openclaw Reveals" [ref=e251] [cursor=pointer]:
+                    - /url: /BkashJosi
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@BkashJosi" [ref=e252] [cursor=pointer]:
+                    - /url: /BkashJosi
+                - link "1h" [ref=e253] [cursor=pointer]:
+                  - /url: /BkashJosi/status/2078756131812573302#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e254] [cursor=pointer]:
+              - /url: /elonmusk
+          - generic [ref=e255]:
+            - text: I think you are obsessed with
+            - link "@imagine" [ref=e256] [cursor=pointer]:
+              - /url: /imagine
+            - text: . And yeah thats the beauty of a beast.
+            - link "@imagine" [ref=e257] [cursor=pointer]:
+              - /url: /imagine
+          - generic:
+            - generic:
+              - generic:
+                - generic: 
+                - text: "1"
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "6"
+            - generic:
+              - generic:
+                - generic: 
+                - text: 1,052
+      - generic [ref=e259]:
+        - link [ref=e260] [cursor=pointer]:
+          - /url: /brownphantom/status/2078774059425530015#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e261] [cursor=pointer]:
+                - /url: /brownphantom
+              - generic:
+                - generic:
+                  - link "Prashant Dhanke" [ref=e262] [cursor=pointer]:
+                    - /url: /brownphantom
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@brownphantom" [ref=e263] [cursor=pointer]:
+                    - /url: /brownphantom
+                - link "44m" [ref=e264] [cursor=pointer]:
+                  - /url: /brownphantom/status/2078774059425530015#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e265] [cursor=pointer]:
+              - /url: /elonmusk
+          - generic [ref=e266]:
+            - link "@imagine" [ref=e267] [cursor=pointer]:
+              - /url: /imagine
+            - text: is great for fun videos. Created this a few months ago when max video length was 10 sec only.
+          - generic [ref=e270]:
+            - button "Enable hls playback" [ref=e273] [cursor=pointer]
+            - link "" [ref=e274] [cursor=pointer]:
+              - /url: /video/39E7BC3CF89C0/https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2078772856343945216%2Fvid%2Favc1%2F464x688%2FPuj-9pe3kk--s1QS.mp4%3Ftag%3D29
+          - generic:
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "2"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "2"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "361"
+      - generic [ref=e278]:
+        - link [ref=e279] [cursor=pointer]:
+          - /url: /itsjustmarky/status/2078754536089403506#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e280] [cursor=pointer]:
+                - /url: /itsjustmarky
+              - generic:
+                - generic:
+                  - link "sudo rm -rf" [ref=e281] [cursor=pointer]:
+                    - /url: /itsjustmarky
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@itsjustmarky" [ref=e282] [cursor=pointer]:
+                    - /url: /itsjustmarky
+                - link "2h" [ref=e283] [cursor=pointer]:
+                  - /url: /itsjustmarky/status/2078754536089403506#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e284] [cursor=pointer]:
+              - /url: /elonmusk
+          - generic [ref=e287]:
+            - link:
+              - /url: /pic/orig/media%2FHNk4O-QXwAAb37e.jpg
+          - generic:
+            - generic: 
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "18"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "577"
+      - generic [ref=e289]:
+        - link [ref=e290] [cursor=pointer]:
+          - /url: /TypeVFuture/status/2078773223853072833#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e291] [cursor=pointer]:
+                - /url: /TypeVFuture
+              - generic:
+                - generic:
+                  - link "TypeVFuture" [ref=e292] [cursor=pointer]:
+                    - /url: /TypeVFuture
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@TypeVFuture" [ref=e293] [cursor=pointer]:
+                    - /url: /TypeVFuture
+                - link "47m" [ref=e294] [cursor=pointer]:
+                  - /url: /TypeVFuture/status/2078773223853072833#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e295] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: Nice, I love it! Grok Imagine is amazing!
+          - generic:
+            - generic: 
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "3"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "134"
+      - generic [ref=e297]:
+        - link [ref=e298] [cursor=pointer]:
+          - /url: /mamboitaliano__/status/2078747600023322909#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e299] [cursor=pointer]:
+                - /url: /mamboitaliano__
+              - generic:
+                - generic:
+                  - link "Mambo Italiano" [ref=e300] [cursor=pointer]:
+                    - /url: /mamboitaliano__
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@mamboitaliano__" [ref=e301] [cursor=pointer]:
+                    - /url: /mamboitaliano__
+                - link "2h" [ref=e302] [cursor=pointer]:
+                  - /url: /mamboitaliano__/status/2078747600023322909#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e303] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: This looks like Italy 🇮🇹 Lovely Dolce Vita vibes ✨(by Grok Imagine)
+          - generic [ref=e306]:
+            - link:
+              - /url: /pic/orig/media%2FHNkx7G0XYAA3V4J.jpg
+          - generic:
+            - generic:
+              - generic:
+                - generic: 
+                - text: "3"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "3"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "24"
+            - generic:
+              - generic:
+                - generic: 
+                - text: 1,464
+      - generic [ref=e308]:
+        - link [ref=e309] [cursor=pointer]:
+          - /url: /OneTrustDriven/status/2078749738212483274#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e310] [cursor=pointer]:
+                - /url: /OneTrustDriven
+              - generic:
+                - generic:
+                  - link "Melissa" [ref=e311] [cursor=pointer]:
+                    - /url: /OneTrustDriven
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@OneTrustDriven" [ref=e312] [cursor=pointer]:
+                    - /url: /OneTrustDriven
+                - link "2h" [ref=e313] [cursor=pointer]:
+                  - /url: /OneTrustDriven/status/2078749738212483274#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e314] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: Me in my dream realm with u and the world’s around us
+          - generic:
+            - generic:
+              - generic:
+                - generic: 
+                - text: "2"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "2"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "7"
+            - generic:
+              - generic:
+                - generic: 
+                - text: 1,840
+      - generic [ref=e316]:
+        - link [ref=e317] [cursor=pointer]:
+          - /url: /nonesuchkyX/status/2078744360275894739#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e318] [cursor=pointer]:
+                - /url: /nonesuchkyX
+              - generic:
+                - generic:
+                  - link "Pistol Pete" [ref=e319] [cursor=pointer]:
+                    - /url: /nonesuchkyX
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@nonesuchkyX" [ref=e320] [cursor=pointer]:
+                    - /url: /nonesuchkyX
+                - link "2h" [ref=e321] [cursor=pointer]:
+                  - /url: /nonesuchkyX/status/2078744360275894739#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e322] [cursor=pointer]:
+              - /url: /elonmusk
+          - generic [ref=e323]:
+            - text: beautiful...the opportunity for creativity is boundless. I am having so much fun with my profile header image and etc.
+            - link "@grok" [ref=e324] [cursor=pointer]:
+              - /url: /grok
+            - text: is really amazing stuff.
+          - generic:
+            - generic:
+              - generic:
+                - generic: 
+                - text: "1"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "1"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "3"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "984"
+      - generic [ref=e326]:
+        - link [ref=e327] [cursor=pointer]:
+          - /url: /badger69420/status/2078742563842937212#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e328] [cursor=pointer]:
+                - /url: /badger69420
+              - generic:
+                - generic:
+                  - link "badger" [ref=e329] [cursor=pointer]:
+                    - /url: /badger69420
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@badger69420" [ref=e330] [cursor=pointer]:
+                    - /url: /badger69420
+                - link "2h" [ref=e331] [cursor=pointer]:
+                  - /url: /badger69420/status/2078742563842937212#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e332] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: I wonder the next 5 years of AI
+          - generic:
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "2"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "4"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "533"
+      - generic [ref=e334]:
+        - link [ref=e335] [cursor=pointer]:
+          - /url: /DOGEQEEN/status/2078758307980849407#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e336] [cursor=pointer]:
+                - /url: /DOGEQEEN
+              - generic:
+                - generic:
+                  - link "Hosna ⚖️ בניטה" [ref=e337] [cursor=pointer]:
+                    - /url: /DOGEQEEN
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@DOGEQEEN" [ref=e338] [cursor=pointer]:
+                    - /url: /DOGEQEEN
+                - link "1h" [ref=e339] [cursor=pointer]:
+                  - /url: /DOGEQEEN/status/2078758307980849407#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e340] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: 🔥🔥
+          - generic [ref=e343]:
+            - link:
+              - /url: /pic/orig/media%2FHNk7qO0XsAEnKru.jpg
+          - generic:
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "1"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "6"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "304"
+      - generic [ref=e345]:
+        - link [ref=e346] [cursor=pointer]:
+          - /url: /XCEO_eth/status/2078742696521277764#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e347] [cursor=pointer]:
+                - /url: /XCEO_eth
+              - generic:
+                - generic:
+                  - link "X CEO" [ref=e348] [cursor=pointer]:
+                    - /url: /XCEO_eth
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@XCEO_eth" [ref=e349] [cursor=pointer]:
+                    - /url: /XCEO_eth
+                - link "2h" [ref=e350] [cursor=pointer]:
+                  - /url: /XCEO_eth/status/2078742696521277764#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e351] [cursor=pointer]:
+              - /url: /elonmusk
+          - generic [ref=e354]:
+            - button "Enable hls playback" [ref=e357] [cursor=pointer]
+            - link "" [ref=e358] [cursor=pointer]:
+              - /url: /video/24037BFDC65C3/https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2078742657325580288%2Fvid%2Favc1%2F464x688%2F2xfukPhJUuQRYeB5.mp4%3Ftag%3D25
+          - generic:
+            - generic:
+              - generic:
+                - generic: 
+                - text: "3"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "11"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "31"
+            - generic:
+              - generic:
+                - generic: 
+                - text: 2,611
+      - generic [ref=e362]:
+        - link [ref=e363] [cursor=pointer]:
+          - /url: /EPavlic/status/2078743318385570103#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e364] [cursor=pointer]:
+                - /url: /EPavlic
+              - generic:
+                - generic:
+                  - link "Endrina Pavlić" [ref=e365] [cursor=pointer]:
+                    - /url: /EPavlic
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@EPavlic" [ref=e366] [cursor=pointer]:
+                    - /url: /EPavlic
+                - link "2h" [ref=e367] [cursor=pointer]:
+                  - /url: /EPavlic/status/2078743318385570103#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e368] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: Grok knows all details
+          - generic:
+            - generic:
+              - generic:
+                - generic: 
+                - text: "1"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "1"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "11"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "605"
+      - generic [ref=e370]:
+        - link [ref=e371] [cursor=pointer]:
+          - /url: /JasonMyer/status/2078743412866695519#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e372] [cursor=pointer]:
+                - /url: /JasonMyer
+              - generic:
+                - generic:
+                  - link "Jay" [ref=e373] [cursor=pointer]:
+                    - /url: /JasonMyer
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@JasonMyer" [ref=e374] [cursor=pointer]:
+                    - /url: /JasonMyer
+                - link "2h" [ref=e375] [cursor=pointer]:
+                  - /url: /JasonMyer/status/2078743412866695519#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e376] [cursor=pointer]:
+              - /url: /elonmusk
+          - text: You're overlaying music on this video, that's not Grok imagine sound.
+          - generic:
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "1"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "6"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "513"
+      - generic [ref=e378]:
+        - link [ref=e379] [cursor=pointer]:
+          - /url: /tkickon/status/2078741761418310007#m
+        - generic:
+          - generic:
+            - generic:
+              - link [ref=e380] [cursor=pointer]:
+                - /url: /tkickon
+              - generic:
+                - generic:
+                  - link "Tkickon" [ref=e381] [cursor=pointer]:
+                    - /url: /tkickon
+                  - generic:
+                    - generic:
+                      - generic "Verified blue account": 
+                    - generic:
+                      - generic "Verified blue account": 
+                  - link "@tkickon" [ref=e382] [cursor=pointer]:
+                    - /url: /tkickon
+                - link "2h" [ref=e383] [cursor=pointer]:
+                  - /url: /tkickon/status/2078741761418310007#m
+          - generic:
+            - text: Replying to
+            - link "@elonmusk" [ref=e384] [cursor=pointer]:
+              - /url: /elonmusk
+          - generic [ref=e385]:
+            - text: An ai video of jimothy would be pretty cool with
+            - link "@grok" [ref=e386] [cursor=pointer]:
+              - /url: /grok
+            - text: imagine
+          - generic:
+            - generic: 
+            - generic: 
+            - generic:
+              - generic:
+                - generic: 
+                - text: "8"
+            - generic:
+              - generic:
+                - generic: 
+                - text: "599"
+      - link "Load more" [ref=e388] [cursor=pointer]:
+        - /url: "?cursor=DAAKCgABHNlUGjZ__osLAAIAAAHIRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUNnYzJVOGRNRnR3M2h6WkxWa2hWOUY4SE5rdUNNK1dzVGNjMlRIdHRSWUJIUnpaUnc2cjI0RmtITmtzVmZ1V1FUNGMyVDhVdmxhQkF4elpMWGdGbHFGRUhOazdianVhOFJnYzJVSWpXVmFCTWh6WkxKNU5HN0YzSE5sSmxOSWJVYWtjMlVoT3VCZWdQQnpaUmhNTkc5RERITms0WlJvYUlHWWMyVE5HSFpkZzVoellURFB0RnBIUEhOa3Q0bExhTUFBYzJVa2V6cHB3RFJ6WkxoN1BHa0ZmSE5rNXNDdGFnSFljMlVpKy9kYnhtUnpaUDhFU1Y1Qk1ITms3cXRrWE1QOGMyVFBmaXhkZ3loelpUMFFjbTlCVEhObEY2UlhXMFNvYzJUMmJVRnVRRHh6Wk5DR1JGeEFwSE5rdSsyVVhZZE1jMlVrN3VGc2h3UnpaT0R5aTEwQnlITmxKL2tSYkFKOGMyVWlSQlJ0Ujd4elpUWHZzVmpBdEhObEhFSzhXVVVvYzJWT2FEeGF4aUJ6WVpFd1hsekVhSE5rL0Via2F3RmNjMlAvMmlGWnhaZz09CAADAAAAAgsABAAAAAZCb3R0b20AAA#r"
+    - link "" [ref=e391] [cursor=pointer]:
+      - /url: "#m"

@@ -1,0 +1,1163 @@
+- generic [active] [ref=f2e1]:
+  - navigation [ref=f2e2]:
+    - generic [ref=f2e3]:
+      - link "nitter" [ref=f2e5] [cursor=pointer]:
+        - /url: /
+      - link [ref=f2e6] [cursor=pointer]:
+        - /url: /
+        - img "Logo" [ref=f2e7]
+      - generic [ref=f2e8]:
+        - link "" [ref=f2e10] [cursor=pointer]:
+          - /url: /search
+        - link "" [ref=f2e12] [cursor=pointer]:
+          - /url: /elonmusk/rss
+        - link "" [ref=f2e14] [cursor=pointer]:
+          - /url: https://x.com/elonmusk
+        - link [ref=f2e15] [cursor=pointer]:
+          - /url: https://liberapay.com/zedeus
+        - link "" [ref=f2e21] [cursor=pointer]:
+          - /url: /about
+        - link "" [ref=f2e23] [cursor=pointer]:
+          - /url: /settings?referer=%2Felonmusk
+  - generic [ref=f2e25]:
+    - link [ref=f2e27] [cursor=pointer]:
+      - /url: /pic/https%3A%2F%2Fpbs.twimg.com%2Fprofile_banners%2F44196397%2F1774145451%2F1500x500
+    - generic [ref=f2e28]:
+      - generic [ref=f2e29]:
+        - generic [ref=f2e30]:
+          - link [ref=f2e31] [cursor=pointer]:
+            - /url: /pic/pbs.twimg.com%2Fprofile_images%2F2053244804520427520%2Fm8mdWZCG.jpg
+          - generic [ref=f2e32]:
+            - link "Elon Musk" [ref=f2e33] [cursor=pointer]:
+              - /url: /elonmusk
+            - generic [ref=f2e34]:
+              - generic "Verified blue account" [ref=f2e35]: 
+              - generic "Verified blue account" [ref=f2e36]: 
+            - link "@elonmusk" [ref=f2e37] [cursor=pointer]:
+              - /url: /elonmusk
+        - generic [ref=f2e38]:
+          - paragraph [ref=f2e40]: Starmind
+          - generic [ref=f2e41]:
+            - generic [ref=f2e42]: 
+            - text: Based in United States
+          - generic [ref=f2e46]:
+            - generic [ref=f2e47]: 
+            - link "spacex.com/spacexai/starmind…" [ref=f2e49] [cursor=pointer]:
+              - /url: https://www.spacex.com/spacexai/starmind#power-generation
+          - link " Joined June 2009" [ref=f2e51] [cursor=pointer]:
+            - /url: /elonmusk/about
+            - generic [ref=f2e52]:
+              - generic [ref=f2e53]: 
+              - text: Joined June 2009
+          - list [ref=f2e55]:
+            - listitem [ref=f2e56]:
+              - text: Tweets
+              - generic [ref=f2e57]: 105,733
+            - listitem [ref=f2e58]:
+              - link "Following 1,370" [ref=f2e59] [cursor=pointer]:
+                - /url: /elonmusk/following
+                - text: Following
+                - generic [ref=f2e60]: 1,370
+            - listitem [ref=f2e61]:
+              - link "Followers 240,929,016" [ref=f2e62] [cursor=pointer]:
+                - /url: /elonmusk/followers
+                - text: Followers
+                - generic [ref=f2e63]: 240,929,016
+            - listitem [ref=f2e64]:
+              - text: Likes
+              - generic [ref=f2e65]: 239,672
+      - generic [ref=f2e66]:
+        - link " 4,625 Photos and videos" [ref=f2e68] [cursor=pointer]:
+          - /url: /elonmusk/media
+          - generic [ref=f2e69]:
+            - generic [ref=f2e70]: 
+            - text: 4,625 Photos and videos
+        - text:  
+        - generic [ref=f2e71]:
+          - link [ref=f2e72] [cursor=pointer]:
+            - /url: /elonmusk/status/2077626867297681867#m
+          - link [ref=f2e73] [cursor=pointer]:
+            - /url: /elonmusk/status/2076905740531302479#m
+          - link [ref=f2e74] [cursor=pointer]:
+            - /url: /elonmusk/status/2076434607562531049#m
+          - link [ref=f2e75] [cursor=pointer]:
+            - /url: /elonmusk/status/2075926239848611976#m
+    - generic [ref=f2e76]:
+      - list [ref=f2e77]:
+        - listitem [ref=f2e78]:
+          - link "Tweets" [ref=f2e79] [cursor=pointer]:
+            - /url: /elonmusk
+        - listitem [ref=f2e80]:
+          - link "Tweets & Replies" [ref=f2e81] [cursor=pointer]:
+            - /url: /elonmusk/with_replies
+        - listitem [ref=f2e82]:
+          - link "Media" [ref=f2e83] [cursor=pointer]:
+            - /url: /elonmusk/media
+        - listitem [ref=f2e84]:
+          - link "Search" [ref=f2e85] [cursor=pointer]:
+            - /url: /elonmusk/search
+      - generic [ref=f2e86]:
+        - generic [ref=f2e87]:
+          - link [ref=f2e88] [cursor=pointer]:
+            - /url: /elonmusk/status/2078741450812965182#m
+          - generic:
+            - generic:
+              - generic:
+                - link [ref=f2e89] [cursor=pointer]:
+                  - /url: /elonmusk
+                - generic:
+                  - generic:
+                    - link "Elon Musk" [ref=f2e90] [cursor=pointer]:
+                      - /url: /elonmusk
+                    - generic:
+                      - generic:
+                        - generic "Verified blue account": 
+                      - generic:
+                        - generic "Verified blue account": 
+                    - link "@elonmusk" [ref=f2e91] [cursor=pointer]:
+                      - /url: /elonmusk
+                  - link "2h" [ref=f2e92] [cursor=pointer]:
+                    - /url: /elonmusk/status/2078741450812965182#m
+            - link [ref=f2e93] [cursor=pointer]:
+              - /url: /dvorahfr/status/2078647568116924900
+              - strong [ref=f2e94]: Déborah
+            - generic [ref=f2e97]:
+              - button "Enable hls playback" [ref=f2e100] [cursor=pointer]
+              - link "" [ref=f2e101] [cursor=pointer]:
+                - /url: /video/BEECFE038B351/https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2078647190453411840%2Fvid%2Favc1%2F1080x1642%2FlxTu8sJiKJI_4Vmk.mp4
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 1,732
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: "625"
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 4,713
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 1,042,690
+        - generic [ref=f2e104]:
+          - link [ref=f2e105] [cursor=pointer]:
+            - /url: /robotaxi/status/2078562760942850182#m
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 
+                    - text: Elon Musk retweeted
+              - generic:
+                - link [ref=f2e106] [cursor=pointer]:
+                  - /url: /robotaxi
+                - generic:
+                  - generic:
+                    - link "Tesla Robotaxi" [ref=f2e107] [cursor=pointer]:
+                      - /url: /robotaxi
+                    - generic:
+                      - generic:
+                        - generic "Verified business account": 
+                      - generic:
+                        - generic "Verified business account": 
+                    - link "@robotaxi" [ref=f2e108] [cursor=pointer]:
+                      - /url: /robotaxi
+                  - link "14h" [ref=f2e109] [cursor=pointer]:
+                    - /url: /robotaxi/status/2078562760942850182#m
+            - text: Gold rush
+            - generic [ref=f2e112]:
+              - link:
+                - /url: /pic/orig/media%2FHNiJyOKawAA0ykr.jpg
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: "662"
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 1,236
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 10,443
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 879,428
+        - generic [ref=f2e113]:
+          - link [ref=f2e114] [cursor=pointer]:
+            - /url: /XFreeze/status/2078402450738893169#m
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 
+                    - text: Elon Musk retweeted
+              - generic:
+                - link [ref=f2e115] [cursor=pointer]:
+                  - /url: /XFreeze
+                - generic:
+                  - generic:
+                    - link "X Freeze" [ref=f2e116] [cursor=pointer]:
+                      - /url: /XFreeze
+                    - generic:
+                      - generic:
+                        - generic "Verified blue account": 
+                      - generic:
+                        - generic "Verified blue account": 
+                    - link "@XFreeze" [ref=f2e117] [cursor=pointer]:
+                      - /url: /XFreeze
+                  - link "Jul 18" [ref=f2e118] [cursor=pointer]:
+                    - /url: /XFreeze/status/2078402450738893169#m
+            - text: "Grok Build is becoming a complete environment for building, deploying and managing real-world applications Its plugin marketplace brings the entire development stack into one connected workflow: • Vercel for deployment • Sentry for monitoring • Chrome DevTools for debugging • Cloudflare for infrastructure • Supabase, MongoDB and Neon for databases • Firecrawl for web data • Figma for design • Railway for hosting • Stripe for payments You are not just asking Grok to write code You can build, test, debug, connect infrastructure, deploy and manage production without constantly switching between tools Grok Build combines a frontier model, a powerful agentic harness and all the tools needed to go from an idea to a shipped product"
+            - generic [ref=f2e121]:
+              - link:
+                - /url: /pic/orig/media%2FHNf4Arba4AE67al.jpg
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: "197"
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: "215"
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 1,220
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 363,167
+        - generic [ref=f2e122]:
+          - link [ref=f2e123] [cursor=pointer]:
+            - /url: /elonmusk/status/2078692662345888102#m
+          - generic:
+            - generic:
+              - generic:
+                - link [ref=f2e124] [cursor=pointer]:
+                  - /url: /elonmusk
+                - generic:
+                  - generic:
+                    - link "Elon Musk" [ref=f2e125] [cursor=pointer]:
+                      - /url: /elonmusk
+                    - generic:
+                      - generic:
+                        - generic "Verified blue account": 
+                      - generic:
+                        - generic "Verified blue account": 
+                    - link "@elonmusk" [ref=f2e126] [cursor=pointer]:
+                      - /url: /elonmusk
+                  - link "6h" [ref=f2e127] [cursor=pointer]:
+                    - /url: /elonmusk/status/2078692662345888102#m
+            - text: Try Grok Build
+            - generic [ref=f2e128]:
+              - link [ref=f2e129] [cursor=pointer]:
+                - /url: /mark_k/status/2078545195818172624#m
+              - generic [ref=f2e130]:
+                - generic [ref=f2e131]:
+                  - link "Mark Kretschmann" [ref=f2e132] [cursor=pointer]:
+                    - /url: /mark_k
+                  - generic [ref=f2e133]:
+                    - generic "Verified blue account" [ref=f2e134]: 
+                    - generic "Verified blue account" [ref=f2e135]: 
+                  - link "@mark_k" [ref=f2e136] [cursor=pointer]:
+                    - /url: /mark_k
+                - link "15h" [ref=f2e138] [cursor=pointer]:
+                  - /url: /mark_k/status/2078545195818172624#m
+              - generic [ref=f2e139]:
+                - text: "Grok Build news:"
+                - link "@SpaceXAI" [ref=f2e140] [cursor=pointer]:
+                  - /url: /SpaceXAI
+                - text: "is back with a banger! Some of the best changes in 0.2.105: • Grok 4.5 is now the default model, with high, medium, and low reasoning effort • /btw now works inside grok --minimal • New /summarize command for instant session summaries • Local shell tools now inherit your normal environment variables, aliases, and functions • Improved long-session compaction • Global rules are now discovered correctly • Smoother scrolling under load and on slow connections Plus a long list of bug fixes. Another seriously strong update."
+              - generic [ref=f2e144]:
+                - link:
+                  - /url: /pic/orig/media%2FHNh5uJjXMAA6-42.png
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: "979"
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: "657"
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 3,488
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 1,261,525
+        - generic [ref=f2e145]:
+          - link [ref=f2e146] [cursor=pointer]:
+            - /url: /WallStreetApes/status/2078546257354907778#m
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 
+                    - text: Elon Musk retweeted
+              - generic:
+                - link [ref=f2e147] [cursor=pointer]:
+                  - /url: /WallStreetApes
+                - generic:
+                  - generic:
+                    - link "Wall Street Apes" [ref=f2e148] [cursor=pointer]:
+                      - /url: /WallStreetApes
+                    - generic:
+                      - generic:
+                        - generic "Verified blue account": 
+                      - generic:
+                        - generic "Verified blue account": 
+                    - link "@WallStreetApes" [ref=f2e149] [cursor=pointer]:
+                      - /url: /WallStreetApes
+                  - link "15h" [ref=f2e150] [cursor=pointer]:
+                    - /url: /WallStreetApes/status/2078546257354907778#m
+            - text: "Every person living in a western nation needs to listen to every word of this Katherine Berbalsingh went to the University of Oxford and is Headmaster at Michaela Community School in London, UK She PERFECTLY explains the mass indoctrination into the narrative of oppressor and oppressed, and of hating White People I will write only some of this out because it’s very important, however you should listen to it so you can hear the passion: “The culture shift comes from what children learn at school and online. Ask any young person what history they learned at school, and they’ll tell you, Hitler. Ask them what else? Slavery. Ask them what else? American civil rights. In fact, what little they know of history will be all about Black and brown people fighting for equality against the white man, women fighting men for the vote, gay and trans people fighting for various rights. Our young people have been taught that history is simply one long story about various groups struggling under the oppressive dead white man. — History is taught through an oppressor lens. The triangular slave trade, white men held the power. What about Britain ending the slave trade? More than a quick mention, if at all? Mm, no. What of the Arab slave trade that lasted 3 times as long as the triangular slave trade? Mm, no. Okay, so GCSE history in Britain is often taught as migration through time, so the idea that Britain has always been a land of immigrants is embedded in our children’s heads. Most schools would prefer to concentrate learning about the tiny number of Black people who existed in Tudor England over a thorough analysis of England’s break from Rome. — Not to mention weeks on King Mansa Musa of Mali because he was a Black Muslim. His bearing on British institutions, laws, and faith is nonexistent. And the fact that he is said to have been the richest man in history, thanks in part to his massive slave-owning society, is a detail somehow that teachers rarely ever teach. But it isn’t just our schools. It’s our general culture too. Take your kids to a museum or an art gallery in any Western country, and you’ll find the same narrative. As an example, when learning about aviation in London’s Science Museum and the extraordinary feat that is man making massive machines move in the sky, a write-up on the wall explains that women and Black people were historically barred from aviation schools and the military. Similarly, James Watt, the man who invented the steam engine and is considered the founder of the Industrial Revolution, has a write-up on the wall explaining that his early career involved slave trafficking, with a bonus analysis of the whole of Britain’s complicity in the slave trade. They flatten the entire human story and all of its complexities into the narrative of oppressor and oppressed, leaving young people unable to see the world in any other terms.” We have to end the mass indoctrination"
+            - generic [ref=f2e153]:
+              - button "Enable hls playback" [ref=f2e156] [cursor=pointer]
+              - link "" [ref=f2e157] [cursor=pointer]:
+                - /url: /video/2C9CC289491E6/https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2078545997899460608%2Fvid%2Favc1%2F1920x1072%2FXkH51XB3lxsatlB2.mp4
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: "549"
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 7,644
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 21,853
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 737,295
+        - generic [ref=f2e160]:
+          - link [ref=f2e161] [cursor=pointer]:
+            - /url: /milichab/status/2078543365101216077#m
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 
+                    - text: Elon Musk retweeted
+              - generic:
+                - link [ref=f2e162] [cursor=pointer]:
+                  - /url: /milichab
+                - generic:
+                  - generic:
+                    - link "Andrew Milich" [ref=f2e163] [cursor=pointer]:
+                      - /url: /milichab
+                    - generic:
+                      - generic:
+                        - generic "Verified blue account": 
+                      - generic:
+                        - generic "Verified blue account": 
+                    - link "@milichab" [ref=f2e164] [cursor=pointer]:
+                      - /url: /milichab
+                  - link "15h" [ref=f2e165] [cursor=pointer]:
+                    - /url: /milichab/status/2078543365101216077#m
+            - text: Big updates next week :)
+            - generic [ref=f2e166]:
+              - link [ref=f2e167] [cursor=pointer]:
+                - /url: /DhravyaShah/status/2078364055061069970#m
+              - generic [ref=f2e168]:
+                - generic [ref=f2e169]:
+                  - link "Dhravya Shah" [ref=f2e170] [cursor=pointer]:
+                    - /url: /DhravyaShah
+                  - generic [ref=f2e171]:
+                    - generic "Verified blue account" [ref=f2e172]: 
+                    - generic "Verified blue account" [ref=f2e173]: 
+                  - link "@DhravyaShah" [ref=f2e174] [cursor=pointer]:
+                    - /url: /DhravyaShah
+                - link "Jul 18" [ref=f2e176] [cursor=pointer]:
+                  - /url: /DhravyaShah/status/2078364055061069970#m
+              - generic [ref=f2e177]:
+                - text: the grok cli is SO DAMN GOOD OMG
+                - link "@xai" [ref=f2e178] [cursor=pointer]:
+                  - /url: /xai
+                - text: The model is fast The UX is literally perfect, even better than having a UI. it's like they took advantage of the CLI interface with such a rich rendering / control feed
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: "222"
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: "279"
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 2,299
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 865,082
+        - generic [ref=f2e179]:
+          - link [ref=f2e180] [cursor=pointer]:
+            - /url: /ScottPresler/status/2078185742480597122#m
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 
+                    - text: Elon Musk retweeted
+              - generic:
+                - link [ref=f2e181] [cursor=pointer]:
+                  - /url: /ScottPresler
+                - generic:
+                  - generic:
+                    - link "ThePersistence" [ref=f2e182] [cursor=pointer]:
+                      - /url: /ScottPresler
+                    - generic:
+                      - generic:
+                        - generic "Verified blue account": 
+                      - generic:
+                        - generic "Verified blue account": 
+                    - link "@ScottPresler" [ref=f2e183] [cursor=pointer]:
+                      - /url: /ScottPresler
+                  - link "Jul 17" [ref=f2e184] [cursor=pointer]:
+                    - /url: /ScottPresler/status/2078185742480597122#m
+            - text: Olive Garden implemented the SAVE America Act more quickly than the US Senate.
+            - generic [ref=f2e187]:
+              - link:
+                - /url: /pic/orig/media%2FHNcy5a6XoAAsW9F.jpg
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 1,066
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 12,102
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 68,289
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 1,076,198
+        - generic [ref=f2e188]:
+          - link [ref=f2e189] [cursor=pointer]:
+            - /url: /elonmusk/status/2078521506007560474#m
+          - generic:
+            - generic:
+              - generic:
+                - link [ref=f2e190] [cursor=pointer]:
+                  - /url: /elonmusk
+                - generic:
+                  - generic:
+                    - link "Elon Musk" [ref=f2e191] [cursor=pointer]:
+                      - /url: /elonmusk
+                    - generic:
+                      - generic:
+                        - generic "Verified blue account": 
+                      - generic:
+                        - generic "Verified blue account": 
+                    - link "@elonmusk" [ref=f2e192] [cursor=pointer]:
+                      - /url: /elonmusk
+                  - link "17h" [ref=f2e193] [cursor=pointer]:
+                    - /url: /elonmusk/status/2078521506007560474#m
+            - text: Robot fights are fun 😂
+            - link [ref=f2e194] [cursor=pointer]:
+              - /url: /EHuanglu/status/2077931272492695886
+              - strong [ref=f2e195]: el.cine
+            - generic [ref=f2e198]:
+              - button "Enable hls playback" [ref=f2e201] [cursor=pointer]
+              - link "" [ref=f2e202] [cursor=pointer]:
+                - /url: /video/D3F3671505DFC/https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2077931160538329088%2Fvid%2Favc1%2F1078x1340%2FOJaqC2myrW_6BH2B.mp4
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 10,340
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 9,398
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 86,444
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 6,605,585
+        - generic [ref=f2e205]:
+          - link [ref=f2e206] [cursor=pointer]:
+            - /url: /elonmusk/status/2078495013936206287#m
+          - generic:
+            - generic:
+              - generic:
+                - link [ref=f2e207] [cursor=pointer]:
+                  - /url: /elonmusk
+                - generic:
+                  - generic:
+                    - link "Elon Musk" [ref=f2e208] [cursor=pointer]:
+                      - /url: /elonmusk
+                    - generic:
+                      - generic:
+                        - generic "Verified blue account": 
+                      - generic:
+                        - generic "Verified blue account": 
+                    - link "@elonmusk" [ref=f2e209] [cursor=pointer]:
+                      - /url: /elonmusk
+                  - link "19h" [ref=f2e210] [cursor=pointer]:
+                    - /url: /elonmusk/status/2078495013936206287#m
+            - generic [ref=f2e211]:
+              - text: Try Grok Build
+              - link "x.ai/cli" [ref=f2e212] [cursor=pointer]:
+                - /url: https://x.ai/cli
+            - link "Grok Build Grok Build is now powered by Grok 4.5, our new model — with a native subagent view, Plan Mode integration, mouse support, and a fullscreen terminal UI. Install with curl -fsSL https://x.ai/cli/inst... x.ai" [ref=f2e214] [cursor=pointer]:
+              - /url: https://x.ai/cli
+              - generic [ref=f2e218]:
+                - heading "Grok Build" [level=2] [ref=f2e219]
+                - paragraph [ref=f2e220]: Grok Build is now powered by Grok 4.5, our new model — with a native subagent view, Plan Mode integration, mouse support, and a fullscreen terminal UI. Install with curl -fsSL https://x.ai/cli/inst...
+                - generic [ref=f2e221]: x.ai
+            - generic [ref=f2e222]:
+              - link [ref=f2e223] [cursor=pointer]:
+                - /url: /XFreeze/status/2078307274049855972#m
+              - generic [ref=f2e224]:
+                - generic [ref=f2e225]:
+                  - link "X Freeze" [ref=f2e226] [cursor=pointer]:
+                    - /url: /XFreeze
+                  - generic [ref=f2e227]:
+                    - generic "Verified blue account" [ref=f2e228]: 
+                    - generic "Verified blue account" [ref=f2e229]: 
+                  - link "@XFreeze" [ref=f2e230] [cursor=pointer]:
+                    - /url: /XFreeze
+                - link "Jul 18" [ref=f2e232] [cursor=pointer]:
+                  - /url: /XFreeze/status/2078307274049855972#m
+              - generic [ref=f2e233]: Just press Ctrl + Space in Grok Build and start talking Grok's Speech-to-Text is incredibly accurate, transcribing your prompts in real time as you speak It makes interacting with your coding agents feel completely natural Instead of pausing to type every instruction, you can simply think out loud while Grok keeps up with your ideas Once you start using voice in Grok Build, it's surprisingly hard to go back to typing everything
+              - generic [ref=f2e237]:
+                - link:
+                  - /url: /pic/orig/media%2FHNegnoYawAAfaf5.jpg
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 1,393
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 1,277
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 5,443
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 2,321,522
+        - generic [ref=f2e238]:
+          - link [ref=f2e239] [cursor=pointer]:
+            - /url: /cyrilXBT/status/2078308274399834157#m
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 
+                    - text: Elon Musk retweeted
+              - generic:
+                - link [ref=f2e240] [cursor=pointer]:
+                  - /url: /cyrilXBT
+                - generic:
+                  - generic:
+                    - link "CyrilXBT" [ref=f2e241] [cursor=pointer]:
+                      - /url: /cyrilXBT
+                    - generic:
+                      - generic:
+                        - generic "Verified blue account": 
+                      - generic:
+                        - generic "Verified blue account": 
+                    - link "@cyrilXBT" [ref=f2e242] [cursor=pointer]:
+                      - /url: /cyrilXBT
+                  - link "Jul 18" [ref=f2e243] [cursor=pointer]:
+                    - /url: /cyrilXBT/status/2078308274399834157#m
+            - generic [ref=f2e244]:
+              - text: "MARC ANDREESSEN WENT ON ROGAN FOR OVER 3 HOURS. HERE ARE THE 17 THINGS WORTH YOUR ATTENTION. 1. AGI is already here, in his view. He says the line got crossed about 3 months ago with GPT-5.5, Claude 4.6, Gemini 3, and Grok 4.3, and nobody noticed because the field moves too fast to register milestones anymore. 2. For almost any topic, he says the top models now give him better answers than the world-class experts he could call by phone, and he can call almost anyone. Worth noting he has not published data behind this, and a separate Nature Medicine study on a comparable AI health tool found it missed real emergencies more than half the time. Take the claim seriously, verify it yourself. 3. His claim on doctors: they are already using ChatGPT in the exam room, typing your symptoms in the moment you stop talking. His actual quote: \"at that point you're asking the question of like, what do I need you for.\" 4. Reportedly, when AI declines to answer something, he tells it he's writing a novel to get past the refusal. 5. Reportedly, his technique for hard topics is escalating simplicity: explain it like I'm 10, then 5, then 2, until it clicks. 6. Reportedly, instead of asking for the \"right\" answer, he has the AI steelman both sides of a hard question, then decides himself. 7. Reportedly, for big questions he has the AI role-play a panel of experts arguing with each other. 8. His broader point: the moment you think \"I don't know how to figure this out\" is exactly when most people give up, and exactly when you should open the AI instead. 9. His view: the only real skill left is knowing what to ask. The bottleneck is in your head, not the model. 10. He describes sending AI photos, rashes, blood tests, for a fast second opinion, since current models read images directly. 11. He points to CBT as the one clinically proven therapy type that AI can plausibly deliver on its own, meaning real therapeutic support becomes freely available at scale. 12. He cites AI cracking previously unsolved math problems, with early signs of the same happening in physics, chemistry, and biology. 13. Reportedly, he claims the top AI coders in Silicon Valley now earn as much as $50 million a year, which he uses as a signal of how large this shift actually is. 14. Reportedly, a friend paid to sequence his own DNA, fed it to an AI along with blood work and wearable data, and got back a working health dashboard. 15. Reportedly, another friend set up cameras in his home jiu-jitsu gym so AI could review his sparring and give him technique notes. 16. He coined the term \"AI vampire\" for the pattern of people working more and sleeping less because AI keeps making more output possible, a real term he used, though the framing around it varies by account. 17. His extrapolation: one person eventually running many AI coding agents, each reviewing the others, describing this as close, not years out. Watch the full interview before treating any single number as settled. Several of these are Andreessen's stated views and anecdotes, not independently verified facts. Follow"
+              - link "@cyrilXBT" [ref=f2e245] [cursor=pointer]:
+                - /url: /cyrilXBT
+              - text: for every AI insight worth your attention the moment it surfaces.
+            - generic [ref=f2e248]:
+              - button "Enable hls playback" [ref=f2e251] [cursor=pointer]
+              - link "" [ref=f2e252] [cursor=pointer]:
+                - /url: /video/BBA1890A887A8/https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2078250541226860544%2Fvid%2Favc1%2F1280x720%2FKrqwG-5GsvxvSwJZ.mp4
+            - generic [ref=f2e255]:
+              - link [ref=f2e256] [cursor=pointer]:
+                - /url: /cyrilXBT/status/2077827005777588266#m
+              - generic [ref=f2e257]:
+                - generic [ref=f2e258]:
+                  - link "CyrilXBT" [ref=f2e259] [cursor=pointer]:
+                    - /url: /cyrilXBT
+                  - generic [ref=f2e260]:
+                    - generic "Verified blue account" [ref=f2e261]: 
+                    - generic "Verified blue account" [ref=f2e262]: 
+                  - link "@cyrilXBT" [ref=f2e263] [cursor=pointer]:
+                    - /url: /cyrilXBT
+                - link "Jul 16" [ref=f2e265] [cursor=pointer]:
+                  - /url: /cyrilXBT/status/2077827005777588266#m
+              - link "Article How to Build a Self-Correcting AI Loop That Catches Its Own Mistakes Before You See Them There is a specific moment that separates someone using AI casually from someone actually running it as a system. It is the moment they stop being the one who catches the mistake. Right now, for most" [ref=f2e267] [cursor=pointer]:
+                - /url: /i/article/2077827005777588266
+                - generic [ref=f2e268]: Article
+                - generic [ref=f2e272]:
+                  - heading "How to Build a Self-Correcting AI Loop That Catches Its Own Mistakes Before You See Them" [level=2] [ref=f2e273]
+                  - paragraph [ref=f2e274]: There is a specific moment that separates someone using AI casually from someone actually running it as a system. It is the moment they stop being the one who catches the mistake. Right now, for most
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: "449"
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 1,085
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 4,923
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 1,580,911
+        - generic [ref=f2e275]:
+          - link [ref=f2e276] [cursor=pointer]:
+            - /url: /elonmusk/status/2078488424894390501#m
+          - generic:
+            - generic:
+              - generic:
+                - link [ref=f2e277] [cursor=pointer]:
+                  - /url: /elonmusk
+                - generic:
+                  - generic:
+                    - link "Elon Musk" [ref=f2e278] [cursor=pointer]:
+                      - /url: /elonmusk
+                    - generic:
+                      - generic:
+                        - generic "Verified blue account": 
+                      - generic:
+                        - generic "Verified blue account": 
+                    - link "@elonmusk" [ref=f2e279] [cursor=pointer]:
+                      - /url: /elonmusk
+                  - link "19h" [ref=f2e280] [cursor=pointer]:
+                    - /url: /elonmusk/status/2078488424894390501#m
+            - link [ref=f2e281] [cursor=pointer]:
+              - /url: /Bitcoin_Teddy/status/2077843964397543604
+              - strong [ref=f2e282]: Teddy - PolyBackTest.com
+            - generic [ref=f2e285]:
+              - button "Enable hls playback" [ref=f2e288] [cursor=pointer]
+              - link "" [ref=f2e289] [cursor=pointer]:
+                - /url: /video/C0BFDFC9AAC51/https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2077640475075358720%2Fvid%2Favc1%2F1280x720%2Fu0or_ZcIi23Ykxr2.mp4
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 1,869
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 2,855
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 16,776
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 2,336,795
+        - generic [ref=f2e292]:
+          - link [ref=f2e293] [cursor=pointer]:
+            - /url: /teslaownersSV/status/2078367770899542088#m
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 
+                    - text: Elon Musk retweeted
+              - generic:
+                - link [ref=f2e294] [cursor=pointer]:
+                  - /url: /teslaownersSV
+                - generic:
+                  - generic:
+                    - link "Tesla Owners Silicon Valley" [ref=f2e295] [cursor=pointer]:
+                      - /url: /teslaownersSV
+                    - generic:
+                      - generic:
+                        - generic "Verified business account": 
+                      - generic:
+                        - generic "Verified business account": 
+                    - link "@teslaownersSV" [ref=f2e296] [cursor=pointer]:
+                      - /url: /teslaownersSV
+                  - link "Jul 18" [ref=f2e297] [cursor=pointer]:
+                    - /url: /teslaownersSV/status/2078367770899542088#m
+            - text: "GROK 4.5 IS NOW ON THE FRONTIERCODE LEADERBOARD Cognition just launched the FrontierCode leaderboard — a new benchmark specifically designed to track which AI models are writing code you’d actually merge into production. Unlike many synthetic benchmarks, FrontierCode focuses on real-world usability, with full methodology and sample tasks publicly available. Grok 4.5 is included in the rankings alongside other top models. This is another step toward measuring what actually matters for developers: code that works, integrates cleanly, and solves real problems."
+            - generic [ref=f2e300]:
+              - link:
+                - /url: /pic/orig/media%2FHNfYeR0agAEm_6e.jpg
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: "317"
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: "586"
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 2,060
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 657,792
+        - generic [ref=f2e301]:
+          - link [ref=f2e302] [cursor=pointer]:
+            - /url: /elonmusk/status/2078368917404151868#m
+          - generic:
+            - generic:
+              - generic:
+                - link [ref=f2e303] [cursor=pointer]:
+                  - /url: /elonmusk
+                - generic:
+                  - generic:
+                    - link "Elon Musk" [ref=f2e304] [cursor=pointer]:
+                      - /url: /elonmusk
+                    - generic:
+                      - generic:
+                        - generic "Verified blue account": 
+                      - generic:
+                        - generic "Verified blue account": 
+                    - link "@elonmusk" [ref=f2e305] [cursor=pointer]:
+                      - /url: /elonmusk
+                  - link "Jul 18" [ref=f2e306] [cursor=pointer]:
+                    - /url: /elonmusk/status/2078368917404151868#m
+            - text: Mass drivers on the mf Moon!!
+            - generic [ref=f2e307]:
+              - link [ref=f2e308] [cursor=pointer]:
+                - /url: /XFreeze/status/2078333878398595179#m
+              - generic [ref=f2e309]:
+                - generic [ref=f2e310]:
+                  - link "X Freeze" [ref=f2e311] [cursor=pointer]:
+                    - /url: /XFreeze
+                  - generic [ref=f2e312]:
+                    - generic "Verified blue account" [ref=f2e313]: 
+                    - generic "Verified blue account" [ref=f2e314]: 
+                  - link "@XFreeze" [ref=f2e315] [cursor=pointer]:
+                    - /url: /XFreeze
+                - link "Jul 18" [ref=f2e317] [cursor=pointer]:
+                  - /url: /XFreeze/status/2078333878398595179#m
+              - generic [ref=f2e318]: "Elon Musk said: “I want to live long enough to see a mass driver on the Moon, because that is going to be incredibly epic” This is not just about building infrastructure on the Moon. It is about building one of the most ambitious futures humanity has ever imagined A lunar mass driver will unlock an entirely new space economy, move enormous amounts of cargo beyond the Moon and open the solar system to human expansion A future far more exciting than anything humanity has experienced before"
+              - generic [ref=f2e322]:
+                - button "Enable hls playback" [ref=f2e325] [cursor=pointer]
+                - link "" [ref=f2e326] [cursor=pointer]:
+                  - /url: /video/7479A56758F63/https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2057353503643783168%2Fvid%2Favc1%2F1080x1080%2FmpGoZmVQu4WIi3yA.mp4
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 2,837
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 3,277
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 17,351
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 2,690,897
+        - generic [ref=f2e329]:
+          - link [ref=f2e330] [cursor=pointer]:
+            - /url: /elonmusk/status/2078368743634149460#m
+          - generic:
+            - generic:
+              - generic:
+                - link [ref=f2e331] [cursor=pointer]:
+                  - /url: /elonmusk
+                - generic:
+                  - generic:
+                    - link "Elon Musk" [ref=f2e332] [cursor=pointer]:
+                      - /url: /elonmusk
+                    - generic:
+                      - generic:
+                        - generic "Verified blue account": 
+                      - generic:
+                        - generic "Verified blue account": 
+                    - link "@elonmusk" [ref=f2e333] [cursor=pointer]:
+                      - /url: /elonmusk
+                  - link "Jul 18" [ref=f2e334] [cursor=pointer]:
+                    - /url: /elonmusk/status/2078368743634149460#m
+            - text: Grok Build improves almost every day
+            - generic [ref=f2e335]:
+              - link [ref=f2e336] [cursor=pointer]:
+                - /url: /techdevnotes/status/2078213325318676494#m
+              - generic [ref=f2e337]:
+                - generic [ref=f2e338]:
+                  - link "Tech Dev Notes" [ref=f2e339] [cursor=pointer]:
+                    - /url: /techdevnotes
+                  - generic [ref=f2e340]:
+                    - generic "Verified blue account" [ref=f2e341]: 
+                    - generic "Verified blue account" [ref=f2e342]: 
+                  - link "@techdevnotes" [ref=f2e343] [cursor=pointer]:
+                    - /url: /techdevnotes
+                - link "Jul 17" [ref=f2e345] [cursor=pointer]:
+                  - /url: /techdevnotes/status/2078213325318676494#m
+              - generic [ref=f2e346]: Grok Build now has /timeline command to Toggle the timeline sidebar
+              - generic [ref=f2e350]:
+                - link:
+                  - /url: /pic/orig/media%2FHNdL75kacAAYw4I.jpg
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 1,215
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 1,477
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 6,530
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 2,139,703
+        - generic [ref=f2e351]:
+          - link [ref=f2e352] [cursor=pointer]:
+            - /url: /elonmusk/status/2078366941199171689#m
+          - generic:
+            - generic:
+              - generic:
+                - link [ref=f2e353] [cursor=pointer]:
+                  - /url: /elonmusk
+                - generic:
+                  - generic:
+                    - link "Elon Musk" [ref=f2e354] [cursor=pointer]:
+                      - /url: /elonmusk
+                    - generic:
+                      - generic:
+                        - generic "Verified blue account": 
+                      - generic:
+                        - generic "Verified blue account": 
+                    - link "@elonmusk" [ref=f2e355] [cursor=pointer]:
+                      - /url: /elonmusk
+                  - link "Jul 18" [ref=f2e356] [cursor=pointer]:
+                    - /url: /elonmusk/status/2078366941199171689#m
+            - text: Easy predictions
+            - link [ref=f2e357] [cursor=pointer]:
+              - /url: /StartupArchive_/status/2078095756687192235
+              - strong [ref=f2e358]: Startup Archive
+            - generic [ref=f2e361]:
+              - button "Enable hls playback" [ref=f2e364] [cursor=pointer]
+              - link "" [ref=f2e365] [cursor=pointer]:
+                - /url: /video/AF76E1B3603E1/https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2078095580375531520%2Fvid%2Favc1%2F1920x1080%2FNeeFK3qJrAFYiTK2.mp4
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 1,231
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 2,178
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 10,569
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 2,088,310
+        - generic [ref=f2e368]:
+          - link [ref=f2e369] [cursor=pointer]:
+            - /url: /yunta_tsai/status/2078326813953265926#m
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 
+                    - text: Elon Musk retweeted
+              - generic:
+                - link [ref=f2e370] [cursor=pointer]:
+                  - /url: /yunta_tsai
+                - generic:
+                  - generic:
+                    - link "Yun-Ta Tsai" [ref=f2e371] [cursor=pointer]:
+                      - /url: /yunta_tsai
+                    - generic:
+                      - generic:
+                        - generic "Verified blue account": 
+                      - generic:
+                        - generic "Verified blue account": 
+                    - link "@yunta_tsai" [ref=f2e372] [cursor=pointer]:
+                      - /url: /yunta_tsai
+                  - link "Jul 18" [ref=f2e373] [cursor=pointer]:
+                    - /url: /yunta_tsai/status/2078326813953265926#m
+            - text: "My favorite system prompt at Grok Build: Do a) …, b) …, c) …. After finishing, please double-check the correctness and DM the visualization of sample outputs. Then walk away."
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: "192"
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: "397"
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 1,949
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 525,030
+        - generic [ref=f2e374]:
+          - link [ref=f2e375] [cursor=pointer]:
+            - /url: /MdeZegher/status/2078174130554523916#m
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 
+                    - text: Elon Musk retweeted
+              - generic:
+                - link [ref=f2e376] [cursor=pointer]:
+                  - /url: /MdeZegher
+                - generic:
+                  - generic:
+                    - link "Max" [ref=f2e377] [cursor=pointer]:
+                      - /url: /MdeZegher
+                    - generic:
+                      - generic:
+                        - generic "Verified blue account": 
+                      - generic:
+                        - generic "Verified blue account": 
+                    - link "@MdeZegher" [ref=f2e378] [cursor=pointer]:
+                      - /url: /MdeZegher
+                  - link "Jul 17" [ref=f2e379] [cursor=pointer]:
+                    - /url: /MdeZegher/status/2078174130554523916#m
+            - generic [ref=f2e380]:
+              - text: "The beginning of the Megacharger network Build-out is focused on the most important Semi routes and depots first. Follow our progress here:"
+              - link "tesla.com/findus?bounds=40.0…" [ref=f2e381] [cursor=pointer]:
+                - /url: https://www.tesla.com/findus?bounds=40.088148238001295%2C-72.5347021341828%2C25.057723630856046%2C-110.0859716654328&filters=tesla_exclusive_megachargers%2Ccoming_soon_megachargers%2Call_megachargers
+              - text: "For Semi customers who can install Megachargers or Basechargers at their depots, we recommend installing their own infrastructure too for the most efficient use of their fleet. Especially in California, Washington, Oregon, and Canada - private Semi Charging for Business financials are super attractive right now. Get in touch:"
+              - link "tesla.com/semi-charging-for-…" [ref=f2e382] [cursor=pointer]:
+                - /url: https://www.tesla.com/semi-charging-for-business
+            - generic [ref=f2e385]:
+              - link:
+                - /url: /pic/orig/media%2FHNcnrtdbYAAOA97.jpg
+            - generic [ref=f2e386]:
+              - link [ref=f2e387] [cursor=pointer]:
+                - /url: /TeslaCharging/status/2078163491354292356#m
+              - generic [ref=f2e388]:
+                - generic [ref=f2e389]:
+                  - link "Tesla Charging" [ref=f2e390] [cursor=pointer]:
+                    - /url: /TeslaCharging
+                  - generic [ref=f2e391]:
+                    - generic "Verified business account" [ref=f2e392]: 
+                    - generic "Verified business account" [ref=f2e393]: 
+                  - link "@TeslaCharging" [ref=f2e394] [cursor=pointer]:
+                    - /url: /TeslaCharging
+                - link "Jul 17" [ref=f2e396] [cursor=pointer]:
+                  - /url: /TeslaCharging/status/2078163491354292356#m
+              - generic [ref=f2e397]:
+                - text: "New Tesla Megacharger: Bloomington, CA (6 stalls)"
+                - link "tesla.com/findus?location=45…" [ref=f2e398] [cursor=pointer]:
+                  - /url: https://www.tesla.com/findus?location=456466
+              - generic [ref=f2e402]:
+                - link:
+                  - /url: /pic/orig/media%2FHNcerkUbsAATNod.jpg
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: "209"
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: "688"
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 3,792
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 967,444
+        - generic [ref=f2e403]:
+          - link [ref=f2e404] [cursor=pointer]:
+            - /url: /tesla_na/status/2078329972226457616#m
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 
+                    - text: Elon Musk retweeted
+              - generic:
+                - link [ref=f2e405] [cursor=pointer]:
+                  - /url: /tesla_na
+                - generic:
+                  - generic:
+                    - link "Tesla North America" [ref=f2e406] [cursor=pointer]:
+                      - /url: /tesla_na
+                    - generic:
+                      - generic:
+                        - generic "Verified business account": 
+                      - generic:
+                        - generic "Verified business account": 
+                    - link "@tesla_na" [ref=f2e407] [cursor=pointer]:
+                      - /url: /tesla_na
+                  - link "Jul 18" [ref=f2e408] [cursor=pointer]:
+                    - /url: /tesla_na/status/2078329972226457616#m
+            - generic [ref=f2e409]:
+              - text: "Tesla Diner is turning 1 on July 21st, so we're throwing a party Come swing by for a day full of fun: – Cybercab on display – Birthday menu –"
+              - link "@Tesla_Optimus" [ref=f2e410] [cursor=pointer]:
+                - /url: /Tesla_Optimus
+              - text: "– Face painting for kids & adults – Photo booth – Servers on roller skates delivering your order – Light show – Skypad DJ – Complimentary collectibles 🎂🎂🎂 P.S.: Complimentary Diner birthday hats signed by"
+              - link "@woodhaus2" [ref=f2e411] [cursor=pointer]:
+                - /url: /woodhaus2
+              - text: for the first 50 car orders at midnight that day...($15 f&b min order)
+            - generic [ref=f2e414]:
+              - link:
+                - /url: /pic/orig/media%2FHNezpHOacAAr9wL.jpg
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: "397"
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: "731"
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 3,922
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 654,574
+        - generic [ref=f2e415]:
+          - link [ref=f2e416] [cursor=pointer]:
+            - /url: /Rothmus/status/2078238083309338966#m
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 
+                    - text: Elon Musk retweeted
+              - generic:
+                - link [ref=f2e417] [cursor=pointer]:
+                  - /url: /Rothmus
+                - generic:
+                  - generic:
+                    - link "Rothmus 🏴" [ref=f2e418] [cursor=pointer]:
+                      - /url: /Rothmus
+                    - generic:
+                      - generic:
+                        - generic "Verified blue account": 
+                      - generic:
+                        - generic "Verified blue account": 
+                    - link "@Rothmus" [ref=f2e419] [cursor=pointer]:
+                      - /url: /Rothmus
+                  - link "Jul 17" [ref=f2e420] [cursor=pointer]:
+                    - /url: /Rothmus/status/2078238083309338966#m
+            - text: On this day in 1918 the Bolsheviks herded Tsar Nicholas II, Empress Alexandra, and their five children into a basement in Yekaterinburg and opened fire. The bullets bounced because the girls had diamonds sewn into their corsets. So the reds finished the job with bayonets, stabbing, crushing skulls, and butchering the children while they were still alive. Then they stripped the bodies, doused them in acid, burned what remained, and dumped the remains in a forest to hide the crime. This was the deliberate, sadistic murder of an entire family, including a sick little boy, by communist animals who needed the blood of innocents to cement their power. Never forget what the Bolsheviks were. Never forgive it.
+            - generic [ref=f2e423]:
+              - button "Enable hls playback" [ref=f2e426] [cursor=pointer]
+              - link "" [ref=f2e427] [cursor=pointer]:
+                - /url: /video/2B2586C12439E/https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2078238027340558336%2Fvid%2Favc1%2F720x914%2F_-ME-5AXr2Qoo1Fh.mp4
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 1,020
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 6,823
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 25,388
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 1,222,727
+        - generic [ref=f2e430]:
+          - link [ref=f2e431] [cursor=pointer]:
+            - /url: /elonmusk/status/2078322392036790316#m
+          - generic:
+            - generic:
+              - generic:
+                - link [ref=f2e432] [cursor=pointer]:
+                  - /url: /elonmusk
+                - generic:
+                  - generic:
+                    - link "Elon Musk" [ref=f2e433] [cursor=pointer]:
+                      - /url: /elonmusk
+                    - generic:
+                      - generic:
+                        - generic "Verified blue account": 
+                      - generic:
+                        - generic "Verified blue account": 
+                    - link "@elonmusk" [ref=f2e434] [cursor=pointer]:
+                      - /url: /elonmusk
+                  - link "Jul 18" [ref=f2e435] [cursor=pointer]:
+                    - /url: /elonmusk/status/2078322392036790316#m
+            - link [ref=f2e436] [cursor=pointer]:
+              - /url: /brivael/status/2078225213943161213
+              - strong [ref=f2e437]: Brivael Le Pogam
+            - generic [ref=f2e440]:
+              - button "Enable hls playback" [ref=f2e443] [cursor=pointer]
+              - link "" [ref=f2e444] [cursor=pointer]:
+                - /url: /video/F405F93DD42C5/https%3A%2F%2Fvideo.twimg.com%2Famplify_video%2F2078225009227546624%2Fvid%2Favc1%2F1080x1920%2F5h_9q4hbWYCKwlFN.mp4
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 2,052
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 3,203
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 15,867
+              - generic:
+                - generic:
+                  - generic: 
+                  - text: 2,047,585
+        - link "Load more" [ref=f2e448] [cursor=pointer]:
+          - /url: "?cursor=DAAHCgABHNlSwZf__-sLAAIAAAATMjA3ODMyMjM5MjAzNjc5MDMxNggAAwAAAAIAAA"
+        - link "" [ref=f2e451] [cursor=pointer]:
+          - /url: "#"

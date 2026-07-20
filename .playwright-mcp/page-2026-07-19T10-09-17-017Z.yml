@@ -1,0 +1,587 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - link "X" [ref=e6] [cursor=pointer]:
+        - /url: /
+    - main [ref=e9]:
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - button "Geri" [ref=e14] [cursor=pointer]
+          - generic [ref=e17]:
+            - generic [ref=e19]:
+              - generic [ref=e20]: Elon Musk
+              - generic [ref=e23]:
+                - button "Onaylanmış hesap" [ref=e24] [cursor=pointer]
+                - link "X" [ref=e27] [cursor=pointer]:
+                  - /url: https://twitter.com/X
+                  - img "X" [ref=e30]
+            - generic [ref=e31]: 105.7K posts
+          - button "Grok" [ref=e32] [cursor=pointer]
+          - button "Ara" [ref=e35] [cursor=pointer]
+        - link "Opens header photo" [ref=e39] [cursor=pointer]:
+          - /url: /elonmusk/header_photo
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]:
+              - link "Profil fotoğrafını açar" [ref=e44] [cursor=pointer]:
+                - /url: /elonmusk/photo
+                - img "user avatar" [ref=e46]
+              - generic [ref=e47]:
+                - generic [ref=e48]:
+                  - generic [ref=e49]: Elon Musk
+                  - generic [ref=e52]:
+                    - button "Onaylanmış hesap" [ref=e53] [cursor=pointer]
+                    - link "X" [ref=e56] [cursor=pointer]:
+                      - /url: https://twitter.com/X
+                      - img "X" [ref=e59]
+                - generic [ref=e60]: "@elonmusk"
+            - generic [ref=e62]: Starmind
+            - generic [ref=e63]:
+              - link "spacex.com/spacexai/starm…" [ref=e67] [cursor=pointer]:
+                - /url: https://t.co/lvCfXMHUg6
+              - generic [ref=e68]: June 2009 tarihinde katıldı
+            - generic [ref=e72]:
+              - link "1,370 Takip ediliyor" [ref=e73] [cursor=pointer]:
+                - /url: /elonmusk/following
+                - generic [ref=e74]:
+                  - generic [ref=e75]: 1,370
+                  - generic [ref=e76]: Takip ediliyor
+              - link "240.9M Takipçiler" [ref=e77] [cursor=pointer]:
+                - /url: /elonmusk/verified_followers
+                - generic [ref=e78]:
+                  - generic [ref=e79]: 240.9M
+                  - generic [ref=e80]: Takipçiler
+              - link "244 Abonelikler" [ref=e81] [cursor=pointer]:
+                - /url: /elonmusk/creator-subscriptions/subscriptions
+                - generic [ref=e82]:
+                  - generic [ref=e83]: "244"
+                  - generic [ref=e84]: Abonelikler
+          - tablist [ref=e87]:
+            - tab "Gönderiler" [selected] [ref=e88] [cursor=pointer]
+            - tab "Yanıtlar" [ref=e92] [cursor=pointer]
+            - tab "Medya" [ref=e96] [cursor=pointer]
+        - generic [ref=e100]:
+          - listitem [ref=e2012]:
+            - link [ref=e2014] [cursor=pointer]:
+              - article [ref=e2015]:
+                - generic [ref=e2016]:
+                  - link [ref=e2019]:
+                    - /url: /elonmusk
+                    - img "user avatar" [ref=e2021]
+                  - generic [ref=e2022]:
+                    - generic [ref=e2024]:
+                      - generic [ref=e2025]:
+                        - generic [ref=e2027]:
+                          - generic [ref=e2028]:
+                            - link "Elon Musk" [ref=e2029]:
+                              - /url: https://x.com/elonmusk
+                            - generic [ref=e2032]:
+                              - button "Onaylanmış hesap" [ref=e2033]
+                              - link "X" [ref=e2036]:
+                                - /url: https://twitter.com/X
+                                - img "X" [ref=e2039]
+                          - link "@elonmusk" [ref=e2041]:
+                            - /url: https://x.com/elonmusk
+                        - generic [ref=e2042]:
+                          - text: ·
+                          - link "31 Eki 2024" [ref=e2043]:
+                            - /url: /elonmusk/status/1851971913586786676
+                      - button "Daha fazla" [ref=e2045]
+                    - generic [ref=e2050]:
+                      - link "Resim" [ref=e2052]:
+                        - /url: /elonmusk/status/1851971913586786676/photo/1
+                      - link "Medyayı görüntüle" [ref=e2053]:
+                        - /url: /elonmusk/status/1851971913586786676/photo/1
+                    - generic [ref=e2054]:
+                      - generic [ref=e2056]:
+                        - button "Yanıtla" [ref=e2057]
+                        - button [ref=e2060]:
+                          - generic [ref=e2061]:
+                            - generic [ref=e2062]: 21 B
+                            - generic [ref=e2063]:
+                              - generic [ref=e2064]: "2"
+                              - generic [ref=e2065]: "1"
+                              - generic [ref=e2067]: B
+                      - generic [ref=e2069]:
+                        - button "Yeniden gönder" [ref=e2070]
+                        - button [ref=e2073]:
+                          - generic [ref=e2074]:
+                            - generic [ref=e2075]: 77 B
+                            - generic [ref=e2076]:
+                              - generic [ref=e2077]: "7"
+                              - generic [ref=e2078]: "7"
+                              - generic [ref=e2080]: B
+                      - generic [ref=e2082]:
+                        - button "Beğen" [ref=e2083]
+                        - button [ref=e2086]:
+                          - generic [ref=e2087]:
+                            - generic [ref=e2088]: 1 Mn
+                            - generic [ref=e2089]:
+                              - generic [ref=e2090]: "1"
+                              - generic [ref=e2092]: Mn
+                      - generic [ref=e2094]:
+                        - link "Görüntülenme sayısı" [ref=e2095]:
+                          - /url: /elonmusk/status/1851971913586786676/quotes
+                        - link [ref=e2098]:
+                          - /url: /elonmusk/status/1851971913586786676/quotes
+                          - generic [ref=e2099]:
+                            - generic [ref=e2100]: 110 Mn
+                            - generic [ref=e2101]:
+                              - generic [ref=e2102]: "1"
+                              - generic [ref=e2103]: "1"
+                              - generic [ref=e2104]: "0"
+                              - generic [ref=e2106]: Mn
+                      - button "Yer işareti" [ref=e2110]
+                      - button "Paylaş" [ref=e2113]
+          - listitem [ref=e2116]:
+            - link [ref=e2118] [cursor=pointer]:
+              - article [ref=e2119]:
+                - generic [ref=e2120]:
+                  - link [ref=e2123]:
+                    - /url: /elonmusk
+                    - img "user avatar" [ref=e2125]
+                  - generic [ref=e2126]:
+                    - generic [ref=e2128]:
+                      - generic [ref=e2129]:
+                        - generic [ref=e2131]:
+                          - generic [ref=e2132]:
+                            - link "Elon Musk" [ref=e2133]:
+                              - /url: https://x.com/elonmusk
+                            - generic [ref=e2136]:
+                              - button "Onaylanmış hesap" [ref=e2137]
+                              - link "X" [ref=e2140]:
+                                - /url: https://twitter.com/X
+                                - img "X" [ref=e2143]
+                          - link "@elonmusk" [ref=e2145]:
+                            - /url: https://x.com/elonmusk
+                        - generic [ref=e2146]:
+                          - text: ·
+                          - link "1 Eyl 2024" [ref=e2147]:
+                            - /url: /elonmusk/status/1830147680468607423
+                      - button "Daha fazla" [ref=e2149]
+                    - generic [ref=e2154]:
+                      - link "Resim" [ref=e2156]:
+                        - /url: /elonmusk/status/1830147680468607423/photo/1
+                      - link "Medyayı görüntüle" [ref=e2157]:
+                        - /url: /elonmusk/status/1830147680468607423/photo/1
+                    - generic [ref=e2158]:
+                      - generic [ref=e2160]:
+                        - button "Yanıtla" [ref=e2161]
+                        - button [ref=e2164]:
+                          - generic [ref=e2165]:
+                            - generic [ref=e2166]: 15 B
+                            - generic [ref=e2167]:
+                              - generic [ref=e2168]: "1"
+                              - generic [ref=e2169]: "5"
+                              - generic [ref=e2171]: B
+                      - generic [ref=e2173]:
+                        - button "Yeniden gönder" [ref=e2174]
+                        - button [ref=e2177]:
+                          - generic [ref=e2178]:
+                            - generic [ref=e2179]: 49 B
+                            - generic [ref=e2180]:
+                              - generic [ref=e2181]: "4"
+                              - generic [ref=e2182]: "9"
+                              - generic [ref=e2184]: B
+                      - generic [ref=e2186]:
+                        - button "Beğen" [ref=e2187]
+                        - button [ref=e2190]:
+                          - generic [ref=e2191]:
+                            - generic [ref=e2192]: 965 B
+                            - generic [ref=e2193]:
+                              - generic [ref=e2194]: "9"
+                              - generic [ref=e2195]: "6"
+                              - generic [ref=e2196]: "5"
+                              - generic [ref=e2198]: B
+                      - generic [ref=e2200]:
+                        - link "Görüntülenme sayısı" [ref=e2201]:
+                          - /url: /elonmusk/status/1830147680468607423/quotes
+                        - link [ref=e2204]:
+                          - /url: /elonmusk/status/1830147680468607423/quotes
+                          - generic [ref=e2205]:
+                            - generic [ref=e2206]: 103 Mn
+                            - generic [ref=e2207]:
+                              - generic [ref=e2208]: "1"
+                              - generic [ref=e2209]: "0"
+                              - generic [ref=e2210]: "3"
+                              - generic [ref=e2212]: Mn
+                      - button "Yer işareti" [ref=e2216]
+                      - button "Paylaş" [ref=e2219]
+          - listitem [ref=e2222]:
+            - link [ref=e2224] [cursor=pointer]:
+              - article [ref=e2225]:
+                - generic [ref=e2226]:
+                  - link [ref=e2229]:
+                    - /url: /elonmusk
+                    - img "user avatar" [ref=e2231]
+                  - generic [ref=e2232]:
+                    - generic [ref=e2233]:
+                      - generic [ref=e2234]:
+                        - generic [ref=e2235]:
+                          - generic [ref=e2237]:
+                            - generic [ref=e2238]:
+                              - link "Elon Musk" [ref=e2239]:
+                                - /url: https://x.com/elonmusk
+                              - generic [ref=e2242]:
+                                - button "Onaylanmış hesap" [ref=e2243]
+                                - link "X" [ref=e2246]:
+                                  - /url: https://twitter.com/X
+                                  - img "X" [ref=e2249]
+                            - link "@elonmusk" [ref=e2251]:
+                              - /url: https://x.com/elonmusk
+                          - generic [ref=e2252]:
+                            - text: ·
+                            - link "29 Tem 2024" [ref=e2253]:
+                              - /url: /elonmusk/status/1817765530255659127
+                        - button "Daha fazla" [ref=e2255]
+                      - generic [ref=e2258]: Wow, Google has a search ban on President Donald Trump! Election interference?
+                    - generic [ref=e2261]:
+                      - link "Resim" [ref=e2263]:
+                        - /url: /elonmusk/status/1817765530255659127/photo/1
+                      - link "Medyayı görüntüle" [ref=e2264]:
+                        - /url: /elonmusk/status/1817765530255659127/photo/1
+                    - generic [ref=e2265]:
+                      - generic [ref=e2267]:
+                        - button "Yanıtla" [ref=e2268]
+                        - button [ref=e2271]:
+                          - generic [ref=e2272]:
+                            - generic [ref=e2273]: 75 B
+                            - generic [ref=e2274]:
+                              - generic [ref=e2275]: "7"
+                              - generic [ref=e2276]: "5"
+                              - generic [ref=e2278]: B
+                      - generic [ref=e2280]:
+                        - button "Yeniden gönder" [ref=e2281]
+                        - button [ref=e2284]:
+                          - generic [ref=e2285]:
+                            - generic [ref=e2286]: 154 B
+                            - generic [ref=e2287]:
+                              - generic [ref=e2288]: "1"
+                              - generic [ref=e2289]: "5"
+                              - generic [ref=e2290]: "4"
+                              - generic [ref=e2292]: B
+                      - generic [ref=e2294]:
+                        - button "Beğen" [ref=e2295]
+                        - button [ref=e2298]:
+                          - generic [ref=e2299]:
+                            - generic [ref=e2300]: 957 B
+                            - generic [ref=e2301]:
+                              - generic [ref=e2302]: "9"
+                              - generic [ref=e2303]: "5"
+                              - generic [ref=e2304]: "7"
+                              - generic [ref=e2306]: B
+                      - generic [ref=e2308]:
+                        - link "Görüntülenme sayısı" [ref=e2309]:
+                          - /url: /elonmusk/status/1817765530255659127/quotes
+                        - link [ref=e2312]:
+                          - /url: /elonmusk/status/1817765530255659127/quotes
+                          - generic [ref=e2313]:
+                            - generic [ref=e2314]: 130 Mn
+                            - generic [ref=e2315]:
+                              - generic [ref=e2316]: "1"
+                              - generic [ref=e2317]: "3"
+                              - generic [ref=e2318]: "0"
+                              - generic [ref=e2320]: Mn
+                      - button "Yer işareti" [ref=e2324]
+                      - button "Paylaş" [ref=e2327]
+          - listitem [ref=e2330]:
+            - link [ref=e2332] [cursor=pointer]:
+              - article [ref=e2333]:
+                - generic [ref=e2334]:
+                  - link [ref=e2337]:
+                    - /url: /elonmusk
+                    - img "user avatar" [ref=e2339]
+                  - generic [ref=e2340]:
+                    - generic [ref=e2341]:
+                      - generic [ref=e2342]:
+                        - generic [ref=e2343]:
+                          - generic [ref=e2345]:
+                            - generic [ref=e2346]:
+                              - link "Elon Musk" [ref=e2347]:
+                                - /url: https://x.com/elonmusk
+                              - generic [ref=e2350]:
+                                - button "Onaylanmış hesap" [ref=e2351]
+                                - link "X" [ref=e2354]:
+                                  - /url: https://twitter.com/X
+                                  - img "X" [ref=e2357]
+                            - link "@elonmusk" [ref=e2359]:
+                              - /url: https://x.com/elonmusk
+                          - generic [ref=e2360]:
+                            - text: ·
+                            - link "1 Kas 2022" [ref=e2361]:
+                              - /url: /elonmusk/status/1587297137099931649
+                        - button "Daha fazla" [ref=e2363]
+                      - generic [ref=e2366]: Halloween with my Mom
+                    - generic [ref=e2369]:
+                      - link "Resim" [ref=e2371]:
+                        - /url: /elonmusk/status/1587297137099931649/photo/1
+                      - link "Medyayı görüntüle" [ref=e2372]:
+                        - /url: /elonmusk/status/1587297137099931649/photo/1
+                    - generic [ref=e2373]:
+                      - generic [ref=e2375]:
+                        - button "Yanıtla" [ref=e2376]
+                        - button [ref=e2379]:
+                          - generic [ref=e2380]:
+                            - generic [ref=e2381]: 33 B
+                            - generic [ref=e2382]:
+                              - generic [ref=e2383]: "3"
+                              - generic [ref=e2384]: "3"
+                              - generic [ref=e2386]: B
+                      - generic [ref=e2388]:
+                        - button "Yeniden gönder" [ref=e2389]
+                        - button [ref=e2392]:
+                          - generic [ref=e2393]:
+                            - generic [ref=e2394]: 39 B
+                            - generic [ref=e2395]:
+                              - generic [ref=e2396]: "3"
+                              - generic [ref=e2397]: "9"
+                              - generic [ref=e2399]: B
+                      - generic [ref=e2401]:
+                        - button "Beğen" [ref=e2402]
+                        - button [ref=e2405]:
+                          - generic [ref=e2406]:
+                            - generic [ref=e2407]: 974 B
+                            - generic [ref=e2408]:
+                              - generic [ref=e2409]: "9"
+                              - generic [ref=e2410]: "7"
+                              - generic [ref=e2411]: "4"
+                              - generic [ref=e2413]: B
+                      - button "Yer işareti" [ref=e2417]
+                      - button "Paylaş" [ref=e2420]
+          - listitem [ref=e2423]:
+            - link [ref=e2425] [cursor=pointer]:
+              - article [ref=e2426]:
+                - generic [ref=e2427]:
+                  - link [ref=e2430]:
+                    - /url: /elonmusk
+                    - img "user avatar" [ref=e2432]
+                  - generic [ref=e2433]:
+                    - generic [ref=e2434]:
+                      - generic [ref=e2435]:
+                        - generic [ref=e2436]:
+                          - generic [ref=e2438]:
+                            - generic [ref=e2439]:
+                              - link "Elon Musk" [ref=e2440]:
+                                - /url: https://x.com/elonmusk
+                              - generic [ref=e2443]:
+                                - button "Onaylanmış hesap" [ref=e2444]
+                                - link "X" [ref=e2447]:
+                                  - /url: https://twitter.com/X
+                                  - img "X" [ref=e2450]
+                            - link "@elonmusk" [ref=e2452]:
+                              - /url: https://x.com/elonmusk
+                          - generic [ref=e2453]:
+                            - text: ·
+                            - link "29 Tem 2024" [ref=e2454]:
+                              - /url: /elonmusk/status/1818031735902453793
+                        - button "Daha fazla" [ref=e2456]
+                      - generic [ref=e2459]: El burro sabe mas que Maduro
+                    - link "user avatar Ian Miles Cheong Onaylanmış hesap Telemetry @ianmiles · 29 Tem 2024 Illegitimate Venezuelan leader Nicolás Maduro, who very likely won reelection through fraud, is declaring war on Elon Musk, whom he calls his \"arch-enemy.\" He claims Elon Musk wants to invade Venezuela with his space rockets. Duraklat 02:12 Medyayı görüntüle" [ref=e2461]:
+                      - generic [ref=e2463]:
+                        - generic [ref=e2464]:
+                          - link [ref=e2465]:
+                            - /url: /ianmiles
+                            - img "user avatar" [ref=e2467]
+                          - generic [ref=e2468]:
+                            - generic [ref=e2470]:
+                              - generic [ref=e2471]:
+                                - link "Ian Miles Cheong" [ref=e2472]:
+                                  - /url: https://x.com/ianmiles
+                                - generic [ref=e2475]:
+                                  - button "Onaylanmış hesap" [ref=e2476]
+                                  - link "Telemetry" [ref=e2479]:
+                                    - /url: https://twitter.com/bonkbot_io
+                                    - img "Telemetry" [ref=e2482]
+                              - link "@ianmiles" [ref=e2484]:
+                                - /url: https://x.com/ianmiles
+                            - generic [ref=e2485]:
+                              - text: ·
+                              - link "29 Tem 2024" [ref=e2486]:
+                                - /url: /ianmiles/status/1818022044505723301
+                        - generic [ref=e2487]: Illegitimate Venezuelan leader Nicolás Maduro, who very likely won reelection through fraud, is declaring war on Elon Musk, whom he calls his "arch-enemy." He claims Elon Musk wants to invade Venezuela with his space rockets.
+                      - generic [ref=e2489]:
+                        - generic [ref=e2494]:
+                          - button "Duraklat" [ref=e2495]
+                          - generic: 02:12
+                        - link "Medyayı görüntüle" [ref=e2500]:
+                          - /url: /ianmiles/status/1818022044505723301/photo/1
+                    - generic [ref=e2501]:
+                      - generic [ref=e2503]:
+                        - button "Yanıtla" [ref=e2504]
+                        - button [ref=e2507]:
+                          - generic [ref=e2508]:
+                            - generic [ref=e2509]: 29 B
+                            - generic [ref=e2510]:
+                              - generic [ref=e2511]: "2"
+                              - generic [ref=e2512]: "9"
+                              - generic [ref=e2514]: B
+                      - generic [ref=e2516]:
+                        - button "Yeniden gönder" [ref=e2517]
+                        - button [ref=e2520]:
+                          - generic [ref=e2521]:
+                            - generic [ref=e2522]: 147 B
+                            - generic [ref=e2523]:
+                              - generic [ref=e2524]: "1"
+                              - generic [ref=e2525]: "4"
+                              - generic [ref=e2526]: "7"
+                              - generic [ref=e2528]: B
+                      - generic [ref=e2530]:
+                        - button "Beğen" [ref=e2531]
+                        - button [ref=e2534]:
+                          - generic [ref=e2535]:
+                            - generic [ref=e2536]: 957 B
+                            - generic [ref=e2537]:
+                              - generic [ref=e2538]: "9"
+                              - generic [ref=e2539]: "5"
+                              - generic [ref=e2540]: "7"
+                              - generic [ref=e2542]: B
+                      - generic [ref=e2544]:
+                        - link "Görüntülenme sayısı" [ref=e2545]:
+                          - /url: /elonmusk/status/1818031735902453793/quotes
+                        - link [ref=e2548]:
+                          - /url: /elonmusk/status/1818031735902453793/quotes
+                          - generic [ref=e2549]:
+                            - generic [ref=e2550]: 95 Mn
+                            - generic [ref=e2551]:
+                              - generic [ref=e2552]: "9"
+                              - generic [ref=e2553]: "5"
+                              - generic [ref=e2555]: Mn
+                      - button "Yer işareti" [ref=e2559]
+                      - button "Paylaş" [ref=e2562]
+          - listitem [ref=e2565]:
+            - link [ref=e2567] [cursor=pointer]:
+              - article [ref=e2568]:
+                - generic [ref=e2569]:
+                  - link [ref=e2572]:
+                    - /url: /elonmusk
+                    - img "user avatar" [ref=e2574]
+                  - generic [ref=e2575]:
+                    - generic [ref=e2576]:
+                      - generic [ref=e2577]:
+                        - generic [ref=e2578]:
+                          - generic [ref=e2580]:
+                            - generic [ref=e2581]:
+                              - link "Elon Musk" [ref=e2582]:
+                                - /url: https://x.com/elonmusk
+                              - generic [ref=e2585]:
+                                - button "Onaylanmış hesap" [ref=e2586]
+                                - link "X" [ref=e2589]:
+                                  - /url: https://twitter.com/X
+                                  - img "X" [ref=e2592]
+                            - link "@elonmusk" [ref=e2594]:
+                              - /url: https://x.com/elonmusk
+                          - generic [ref=e2595]:
+                            - text: ·
+                            - link "11 Haz 2025" [ref=e2596]:
+                              - /url: /elonmusk/status/1932695486684950962
+                        - button "Daha fazla" [ref=e2598]
+                      - generic [ref=e2601]:
+                        - text: I regret some of my posts about President
+                        - link "@realDonaldTrump" [ref=e2602]:
+                          - /url: https://x.com/realDonaldTrump
+                        - text: last week. They went too far.
+                    - generic [ref=e2603]:
+                      - generic [ref=e2605]:
+                        - button "Yanıtla" [ref=e2606]
+                        - button [ref=e2609]:
+                          - generic [ref=e2610]:
+                            - generic [ref=e2611]: 146 B
+                            - generic [ref=e2612]:
+                              - generic [ref=e2613]: "1"
+                              - generic [ref=e2614]: "4"
+                              - generic [ref=e2615]: "6"
+                              - generic [ref=e2617]: B
+                      - generic [ref=e2619]:
+                        - button "Yeniden gönder" [ref=e2620]
+                        - button [ref=e2623]:
+                          - generic [ref=e2624]:
+                            - generic [ref=e2625]: 85 B
+                            - generic [ref=e2626]:
+                              - generic [ref=e2627]: "8"
+                              - generic [ref=e2628]: "5"
+                              - generic [ref=e2630]: B
+                      - generic [ref=e2632]:
+                        - button "Beğen" [ref=e2633]
+                        - button [ref=e2636]:
+                          - generic [ref=e2637]:
+                            - generic [ref=e2638]: 1 Mn
+                            - generic [ref=e2639]:
+                              - generic [ref=e2640]: "1"
+                              - generic [ref=e2642]: Mn
+                      - generic [ref=e2644]:
+                        - link "Görüntülenme sayısı" [ref=e2645]:
+                          - /url: /elonmusk/status/1932695486684950962/quotes
+                        - link [ref=e2648]:
+                          - /url: /elonmusk/status/1932695486684950962/quotes
+                          - generic [ref=e2649]:
+                            - generic [ref=e2650]: 136 Mn
+                            - generic [ref=e2651]:
+                              - generic [ref=e2652]: "1"
+                              - generic [ref=e2653]: "3"
+                              - generic [ref=e2654]: "6"
+                              - generic [ref=e2656]: Mn
+                      - button "Yer işareti" [ref=e2660]
+                      - button "Paylaş" [ref=e2663]
+    - complementary [ref=e1484]:
+      - generic [ref=e1486]:
+        - generic [ref=e1487]:
+          - heading "X'te yeni misin?" [level=2] [ref=e1488]
+          - generic [ref=e1489]:
+            - paragraph [ref=e1490]: Kişiselleştirilmiş zaman akışını almak için hemen kaydol!
+            - generic [ref=e1491]:
+              - generic [ref=e1492]:
+                - generic: Google ile kaydol
+                - generic [ref=e1494]:
+                  - button "Google ile kaydolun. Yeni sekmede açılır" [ref=e1496] [cursor=pointer]:
+                    - generic [ref=e1498]: Google ile kaydolun
+                  - iframe [ref=e1508]:
+                    - button "Google ile kaydolun. Yeni sekmede açılır" [ref=f1e3] [cursor=pointer]:
+                      - generic [ref=f1e5]: Google ile kaydolun
+              - button "Apple ile kaydol" [ref=e1509] [cursor=pointer]
+              - link "Hesap oluştur" [ref=e1512] [cursor=pointer]:
+                - /url: /i/jf/onboarding/web?mode=signup&redirect_after_login=%2Felonmusk
+            - paragraph [ref=e1513]:
+              - text: Kaydolarak,
+              - link "Çerez Kullanımı" [ref=e1514] [cursor=pointer]:
+                - /url: https://support.x.com/articles/20170514
+              - text: da dâhil olmak üzere
+              - link "Hizmet Şartları" [ref=e1515] [cursor=pointer]:
+                - /url: https://x.com/tos
+              - text: ve
+              - link "Gizlilik Politikası'nı" [ref=e1516] [cursor=pointer]:
+                - /url: https://x.com/privacy
+              - text: kabul etmiş oluyorsun.
+        - navigation "Altbilgi" [ref=e1517]:
+          - generic [ref=e1518]:
+            - link "Terms" [ref=e1519] [cursor=pointer]:
+              - /url: https://x.com/tos
+            - generic [ref=e1520]: ·
+          - generic [ref=e1521]:
+            - link "Privacy" [ref=e1522] [cursor=pointer]:
+              - /url: https://x.com/privacy
+            - generic [ref=e1523]: ·
+          - generic [ref=e1524]:
+            - link "Cookies" [ref=e1525] [cursor=pointer]:
+              - /url: https://support.x.com/articles/20170514
+            - generic [ref=e1526]: ·
+          - generic [ref=e1527]:
+            - link "Erişilebilirlik" [ref=e1528] [cursor=pointer]:
+              - /url: https://help.x.com/resources/accessibility
+            - generic [ref=e1529]: ·
+          - generic [ref=e1530]:
+            - link "Ads Info" [ref=e1531] [cursor=pointer]:
+              - /url: https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo
+            - generic [ref=e1532]: ·
+          - button "Daha fazla" [ref=e1533] [cursor=pointer]
+          - generic [ref=e1536]: © 2026 X Corp.
+    - generic [ref=e1539]:
+      - generic [ref=e1540]:
+        - generic [ref=e1541]: Don't miss what's happening
+        - generic [ref=e1542]: Haberleri önce X'teki kişiler alır.
+      - generic [ref=e1543]:
+        - link "Giriş yap" [ref=e1544] [cursor=pointer]:
+          - /url: /i/jf/onboarding/web?mode=login&redirect_after_login=%2Felonmusk
+        - link "Kaydol" [ref=e1545] [cursor=pointer]:
+          - /url: /i/jf/onboarding/web?mode=signup&redirect_after_login=%2Felonmusk
+  - generic [ref=e1546]: Elon Musk (@elonmusk) / X
+  - region "Notifications alt+T"
